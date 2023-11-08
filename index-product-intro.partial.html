@@ -1,25 +1,25 @@
 <!-- this css styles which are going to be removed into separate file once we get to this -->
 <!-- START OF CSS -->
 <style>
-.section__first {
+.product-intro {
     display: flex;
     margin-top: 25px;
     background-color: rgb(243, 239, 239);
 }
-.section__first__left-block {
+.product-intro__left-block {
     width: 100%;
 }
-.section__first__right-block {
+.product-intro__right-block {
     width: 100%;
     text-align: center;
     margin-left: 45px;
 }
-.section__first__big-text {
+.product-intro__big-text {
     font-size: 80px;
     margin-bottom: 25px;
     font-weight: bold;
 }
-.section__first__small-text {
+.product-intro__small-text {
     font-size: 20px;
     margin-bottom: 45px;
 }
@@ -38,18 +38,18 @@
 .btn:hover {
     background-color: black;
 }
-.section__first__right-block {
+.product-intro__right-block {
     text-align: left;
 }
 </style>
 <!-- END OF CSS -->
-<div class="section__first">
-    <div class="section__first__left-block">
-        <img src="img/header/notebook_bag.webp" alt="Bag picture">
+<section class="product-intro">
+    <div class="product-intro__left-block">
+        <img class="product-intro__image" src="img/header/notebook_bag.webp" alt="Bag picture">
     </div>
-    <div class="section__first__right-block">
-        <p class="section__first__big-text">Notebook Bags Made to Last a Lifetime</p>
-        <p class="section__first__small-text">Each of our products is made by hand from the finest leather</p>
-        <a href="#" class="btn" >Choose Products</a>
+    <div class="product-intro__right-block">
+        <p class="product-intro__big-text">Notebook Bags Made to Last a Lifetime</p>
+        <p class="product-intro__small-text">Each of our products is made by hand from the finest leather</p>
+        <a href="#" class="btn product-intro__button">Choose Products</a>
     </div>
-</div>
+</section>
