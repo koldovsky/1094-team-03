@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
 .header__top {
     text-align: center;
     margin-top: 40px;
 }
 .header__top h1 {
     font-size: 34px;
+    font-family: 'Saira', sans-serif;
 }
 .header__nav {
     display: flex;
@@ -17,7 +21,7 @@
 .header__menu__item {
     margin-right: 25px;
     font-size: 18px;
-    font-family: sans-serif;
+    font-family: 'Merriweather', serif;
 }
 .header__menu__item a {
     text-decoration: none;

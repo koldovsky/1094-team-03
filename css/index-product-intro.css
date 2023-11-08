@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
 .product-intro {
     display: flex;
     margin-top: 25px;
@@ -15,10 +18,12 @@
     font-size: 80px;
     margin-bottom: 25px;
     font-weight: bold;
+    font-family: 'Saira', sans-serif;
 }
 .product-intro__small-text {
     font-size: 20px;
     margin-bottom: 45px;
+    font-family: 'Merriweather', serif;
 }
 .btn {
     font-size: 16px;
