@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.product-intro {
+    display: flex;
+    margin-top: 25px;
+    background-color: rgb(243, 239, 239);
+}
+.product-intro__left-block {
+    width: 100%;
+}
+.product-intro__right-block {
+    width: 100%;
+    text-align: center;
+    margin-left: 45px;
+}
+.product-intro__big-text {
+    font-size: 80px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-family: 'Saira', sans-serif;
+}
+.product-intro__small-text {
+    font-size: 20px;
+    margin-bottom: 45px;
+    font-family: 'Merriweather', serif;
+}
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(207, 61, 61);
+    border: thin solid transparent;
+    border-radius: 25px;
+    padding: 20px;
+    text-decoration: none;
+
+}
+.btn:hover {
+    background-color: black;
+}
+.product-intro__right-block {
+    text-align: left;
+}
