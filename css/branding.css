@@ -17,3 +17,15 @@
     text-align: center;
     margin-left: 45px;
 }
+
+input {
+    display: block;
+    width: 100%;
+    top: auto;
+    opacity: 1;
+    margin-top: 15px;
+    border: 0;
+    font-family: inherit;
+    text-overflow: ellipsis;
+    background-color: hsla(0,0%,40.4%,.2);
+}
