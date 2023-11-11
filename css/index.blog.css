@@ -1,0 +1,22 @@
+.blog {
+    background-color: black;
+}
+
+.blog__title {
+    color: white;
+    margin: 0;
+    text-align: center;
+    position: inherit;
+}
+
+.blog__title__description,
+.blog__image__description,
+.blog__image__signature {
+    color:white;
+    margin: 0;
+    position:inherit;
+}
+
+.blog__items {
+    display: flex;
+}
