@@ -1,27 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;700&display=swap');
+@import url(global.css);
+@import url(header-nav.css);
+@import url(index.subscribe_to_get.css);
 
-.background {
-    max-width: 100%;
-    height: auto;
+.photoandcustomproducts {
+    display: flex;
+    margin-top: 25px;
+    background-color: white;
+}
+.left {
+    width: 100%;
+}
+.right-form{
+    width: 100%;
+    text-align: center;
+    margin-left: 45px;
+}
+
+body{
+
+}
+
+.textcontainer {
+    position: absolute;
+    top: 25%;
+    right: 55%;
+}
+
+.container {
+    height: 500px;
+    overflow: hidden;
+
+}
+
+
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 h2 {
-    font-family: 'Saira', sans-serif; 
-    font-size: 24px;
-    color: #333; 
-  }
-
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
+    font:"Saira"sans-serif;
 }
 
-.customorders{
-    width: 100%;
-    height: auto;
+p {
+    font:"Merriweather";
+}
+input {
+    display: block;
+    top: auto;
+    opacity: 1;
+    margin-top: 15px;
+    border: 0;
+    font-family: inherit;
+    text-overflow: ellipsis;
+    background-color: hsla(0,0%,40.4%,.2);
+    max-width: 350px;
+}
+
+button{
+opacity: 1;
+max-width: 350px;
 }

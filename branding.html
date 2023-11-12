@@ -17,12 +17,17 @@
     <main>
 
       <section class="customorders">
-        <img src="img/branding/man.webp" class="background" alt="Man with bag">
-        <h2>Custom Orders</h2>
-        Although a quality leather product is a wonderful gift by itself, adding a touch of customization turns it into an even better one. Whether you are looking to provide your company with elegant and unified corporate accessories, looking for personalized gifts for your loved ones, or just want to treat your self to unique leather goods, our custom branding option is the perfect way to go.
+        <div class="container">
+          <img src="img/branding/man.webp" alt="Man with bag">
+        </div>
+        <div class="textcontainer">
+          <h2>Custom Orders</h2>
+          <p>Although a quality leather product is a wonderful gift by itself, adding a touch of customization turns it into an even better one. Whether you are looking to provide your company with elegant and unified corporate accessories, looking for personalized gifts for your loved ones, or just want to treat your self to unique leather goods, our custom branding option is the perfect way to go.</p>
+      </div>
       </section>
 
       <section class="brandingprocess">
+        <h2>Branding Process</h2>
         <img src="img/branding/background.webp" alt="Moving background">
         <img src="img/branding/workleather.webp" alt="The master works with leather">
       </section>
@@ -32,38 +37,24 @@
       </section>
 
       <section class="photoandcustomproducts">
-        <table>
-          <tr>
-            <td>
-              <img src="img/branding/instrumentsshoes.webp" class="instrumentsshoesimg" alt="Table with instruments">
-            </td>
-            <td>
-              <div class="form">
-                <h2>Custom Products</h2>
-                <p>You can order branding and customization for any of our products. Complete the form below and we will contact you ASAP!
-                <p>
-                <input type="text" name="name" placeholder="Name*" required><br>
-                <p>
-                <input type="tel" name="phonenumber" placeholder="Phone number*" required><br>
-                <p>
-                <input type="email" name="email" placeholder="E-mail*" required><br>
-                <p>
-                <input type="text" name="catphotourl" placeholder="Customization preferences"><br>
-                <p>
-                <button type="send">Send</button>
-              </div>
-            </td>
-          </tr>
-        </table>
-      </section>
-
-      <section>
-        <div class="subscribe_to_get" data-include="index.main__subscribe_to_get.partial.html"></div>
+        <div class="left">
+          <img src="img/branding/instrumentsshoes.webp" class="instrumentsshoesimg" alt="Table with instruments">
+        </div>
+        <div class="right-form">
+          <h2>Custom Products</h2>
+          <p>You can order branding and customization for any of our products. Complete the form below and we will contact you ASAP!</p>
+          <p><input type="text" name="name" placeholder="Name*" required><br></p>
+          <p><input type="tel" name="phonenumber" placeholder="Phone number*" required><br></p>
+          <p><input type="email" name="email" placeholder="E-mail*" required><br></p>
+          <p><input type="text" name="catphotourl" placeholder="Customization preferences"><br></p>
+          <p><button type="send">Send</button></p>
+        </div>
       </section>
     
     </main>
 
     <footer>
+      <div class="subscribe_to_get" data-include="index.main__subscribe_to_get.partial.html"></div>
     </footer>
 
 </body>

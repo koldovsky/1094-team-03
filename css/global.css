@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,9 +9,19 @@
 
 :root {
     scroll-behavior: smooth;
+    --btn-primary-color-red: #e04141; /* button color Red*/
+    --btn-hover-color-white: #ffffff; /* button hover color White*/
+    --text-color-white: #ffffff;
+    --text-color-black: #212020;
+    --btn-email-background-color-grey: #ffffff1f;
 }
 
 img {
     display: block;
     width: 100%;
+}
+
+body{
+    max-width: 1624px;
+    margin: auto;
 }
