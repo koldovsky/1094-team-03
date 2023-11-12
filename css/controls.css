@@ -1,0 +1,15 @@
+.btn {
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    color: white;
+    background-color: var(--btn-primary-color-red);
+    border: thin solid transparent;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.btn:hover {
+    background-color: black;
+}
