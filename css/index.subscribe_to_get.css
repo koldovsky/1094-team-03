@@ -5,6 +5,7 @@
     background-size: cover;
     min-height: 591px;
     padding: 80px, 24px, 90px,24px;
+    width: 100%;
 }
 .subscribe__main-content {
     padding-left: 24px;
