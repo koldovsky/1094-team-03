@@ -1,11 +1,10 @@
 .subscribe {	
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),
     url("/img/subscribe-to-get/bag-in-hand.webp");
     background-position: center;
     background-size: cover;
     min-height: 591px;
     padding: 80px, 24px, 90px,24px;
-   
 }
 .subscribe__main-content {
     padding-left: 24px;
@@ -16,7 +15,7 @@
 }
 .subscribe__main-content__text {
     font-family: Saira, sans-serif;
-    font-size: 38x;
+    font-size: 38px;
     color: var(--text-color-white);
 }
 .subscribe__main-content__description {
