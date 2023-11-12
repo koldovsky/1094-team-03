@@ -1,37 +1,53 @@
 .subscribe{	
     background: linear-gradient(rgba(0,0,0,0.5), url(img/bag-in-hand.webp));
     background-position: center;
-    font-family: "Saira", sans-serif;
+    background-size: cover;
+    max-width: 1624px;
+    min-height: 591px;
+    padding-top: 80px;
+    padding-bottom: 90px;
 }
 .subscribe__main-content{
-    background-color: #212020;
-    opacity: 0.7;
-    height:400px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
-.subscribe__main-content__titlepart{
-    width:600px;
-    height:177px;
-}
+
 .subscribe__main-content__text{
-    color: #fff;
+    font-family: Saira, sans-serif;
+    font-weight: 44px;
+    color: var(--text-color-white);
 }
+
 .subscribe__main-content__description{
-    color: #ebebeb;
+    font-family: Merriweather, serif;
+    font-weight: 16px;
+    color: var(--text-color-white);
+}
+.subscribe__main-content__form{
+    font-family: Merriweather, serif;
+    font-weight: 14px;
 }
 .subscribe__main-content__form__email{
-    width: 266px;
-    height: 35px;
-    background-color: #595452;
+    opacity: 0.33;
+    min-width: 272px;
+    height: 41.8px;
+    background-color: var(btn-email-background-color-grey);
+    background-attachment: scroll;
+    background-clip: border-box;
     color: #ebebeb;
     border:none;
     border-radius:20px;
 }
 .subscribe__main-content__form__button{
-    opacity: none;
-    width: 266px;
-    height: 35px;
-    background-color: #e04141;
-    color: #fff;
+    min-width: 272px;
+    height: 39px;
+    background-color: var(--btn-primary-color-red);
+    color: var(--text-color-white);
     border:2px;
     border-radius:20px;
+}
+.subscribe__main-content__form__button:hover{
+    cursor: pointer;
+    background-color: var(--btn-hover-color-white);
+    color: var(--text-color-black);
 }
