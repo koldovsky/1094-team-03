@@ -1,8 +1,6 @@
 .subscribe{	
-    background-image: url(img/bag-in-hand.webp);
-    background-position: center center;
-    position: relative;	
-    min-width: 320px;
+    background: linear-gradient(rgba(0,0,0,0.5), url(img/bag-in-hand.webp));
+    background-position: center;
     font-family: "Saira", sans-serif;
 }
 .subscribe__main-content{
