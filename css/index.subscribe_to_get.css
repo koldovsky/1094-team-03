@@ -3,18 +3,16 @@
     url("/img/subscribe-to-get/bag-in-hand.webp");
     background-position: center;
     background-size: cover;
-    max-width: 1624px;
-    min-width: 310px;
     min-height: 591px;
-    padding-top: 80px;
-    padding-bottom: 90px;
+    padding: 80px, 24px, 90px,24px;
+   
 }
 .subscribe__main-content {
     padding-left: 24px;
     padding-right: 24px;
 }
 .subscribe__main-content__titlepart {
-    min-width: 265px;
+    
 }
 .subscribe__main-content__text {
     font-family: Saira, sans-serif;
