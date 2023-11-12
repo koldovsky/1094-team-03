@@ -9,9 +9,18 @@
 
 :root {
     scroll-behavior: smooth;
+    --btn-primary-color-red: #e04141; /* button color Red*/
+    --btn-hover-color-black: #00000000; /* button hover color Black*/
+    --text-color-white: #ffffff;
+    --text-color-black: #212020;
 }
 
 img {
     display: block;
     width: 100%;
+}
+
+body{
+    max-width: 1624px;
+    margin: auto;
 }
