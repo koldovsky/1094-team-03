@@ -1,5 +1,6 @@
 .subscribe{	
-    background: linear-gradient(rgba(0,0,0,0.5), url(img/bag-in-hand.webp));
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(img/bag-in-hand.webp);
     background-position: center;
     background-size: cover;
     max-width: 1624px;
@@ -8,6 +9,7 @@
     padding-bottom: 90px;
 }
 .subscribe__main-content{
+    display: flex;
     padding-left: 24px;
     padding-right: 24px;
 }
@@ -24,6 +26,7 @@
     color: var(--text-color-white);
 }
 .subscribe__main-content__form{
+    display: flex;
     font-family: Merriweather, serif;
     font-weight: 14px;
 }
