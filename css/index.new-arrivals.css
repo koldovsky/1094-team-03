@@ -1,6 +1,50 @@
 .new-arrivals {
-    background: url("img/block-background-black") 50% 50% / cover no-repeat, rgb(33, 32, 32);
+    background: url("../img/block-background-black.jpg") 50% 50% / cover no-repeat, rgb(33, 32, 32);
+    padding-top: 80px;
+    padding-bottom: 90px
 }
 .new-arrivals h2 {
     color: var(--text-color-white);
+    text-align: center;
+    font-family: var(--title-font-family);
+    font-size: 38px;
+    font-weight: 500;
+}
+.new-arrivals .carousel__container {
+    margin-top: 45px;
+    padding: 0 24px;
+}
+.new-arrivals .carousel__container ul {
+    padding: 0 15px;
+}
+.new-arrivals .carousel__container li {
+    padding: 27px;
+    background: var(--text-color-white);
+    text-align: center;
+    font-family: var(--paragraphs-font-family);
+}
+.new-arrivals .carousel__container .carousel__title {
+    color: var(--text-color-black);
+    font-size: 17px;
+}
+.new-arrivals .carousel__container .carousel__title:hover {
+    text-decoration: underline;
+}
+.new-arrivals .carousel__container .carousel__price {
+    font-size: 17px;
+    color: var(--btn-primary-color-red);
+    font-weight: 700;
+    margin-top: 10px;
+}
+.new-arrivals .carousel__container .carousel__buy {
+    margin-top: 24px;
+    margin-bottom: 0;
+
+    padding: 11px 30px 10px 30px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: var(--text-color-white);
+    background: var(--btn-primary-color-red);
+    font-family: var(--paragraphs-font-family);
+    border: none;
 }

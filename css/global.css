@@ -14,6 +14,8 @@
     --text-color-white: #ffffff;
     --text-color-black: #212020;
     --btn-email-background-color-grey: #ffffff1f;
+    --title-font-family: 'Saira', sans-serif;
+    --paragraphs-font-family: 'Merriweather', serif;;
 }
 
 img {
@@ -21,8 +23,12 @@ img {
     width: 100%;
 }
 
-body{
+body {
     max-width: 1624px;
     min-width: 310px;
     margin: auto;
+}
+
+a {
+    text-decoration: none;
 }
