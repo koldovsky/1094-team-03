@@ -8,26 +8,24 @@
     padding-top: 80px;
     padding-bottom: 90px;
 }
-.subscribe__main-content__titlepart {
-    min-width: 265px;
-}
 .subscribe__main-content {
-    display: flex;
     padding-left: 24px;
     padding-right: 24px;
 }
+.subscribe__main-content__titlepart {
+    min-width: 265px;
+}
 .subscribe__main-content__text {
-    font-family: Saira, sans-serif;
-    font-size: 44px;
+    font-family: 'Saira', sans-serif;
+    font-size: 38x;
     color: var(--text-color-white);
 }
 .subscribe__main-content__description {
-    font-family: Merriweather, serif;
+    font-family: 'Merriweather', serif;
     font-size: 16px;
     color: var(--text-color-white);
 }
 .subscribe__main-content__form {
-    display: flex;
     align-items: stretch;
     font-family: Merriweather, serif;
     font-size: 14px;
