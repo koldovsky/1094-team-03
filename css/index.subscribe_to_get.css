@@ -1,9 +1,10 @@
 .subscribe {	
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url(/img/subscribe-to-get/bag-in-hand.webp);
+    url("/img/subscribe-to-get/bag-in-hand.webp");
     background-position: center;
     background-size: cover;
     max-width: 1624px;
+    min-width: 310px;
     min-height: 591px;
     padding-top: 80px;
     padding-bottom: 90px;
@@ -16,17 +17,16 @@
     min-width: 265px;
 }
 .subscribe__main-content__text {
-    font-family: 'Saira', sans-serif;
+    font-family: Saira, sans-serif;
     font-size: 38x;
     color: var(--text-color-white);
 }
 .subscribe__main-content__description {
-    font-family: 'Merriweather', serif;
+    font-family: Merriweather, serif;
     font-size: 16px;
     color: var(--text-color-white);
 }
 .subscribe__main-content__form {
-    align-items: stretch;
     font-family: Merriweather, serif;
     font-size: 14px;
 }
