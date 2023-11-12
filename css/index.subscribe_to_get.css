@@ -1,17 +1,16 @@
 .subscribe {	
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(/img/subscribe-to-get/bag-in-hand.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: 591px;
+    padding: 80px 24px 90px 24px; 
+}
+.subscribe__main-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-    url("img/subscribe-to-get/bag-in-hand.webp");
-    background-position: center;
-    background-size: cover;
-    min-height: 591px;
-    padding: 80px 24px 90px 24px;
-    
-}
-.subscribe__main-content {
     padding-left: 24px;
     padding-right: 24px;
     max-width: 1624px;
@@ -62,7 +61,7 @@
 }
 
 @media (min-width:768px) {
-    .subscribe {
+    .subscribe__main-content {
         flex-direction: row;
     }
     .subscribe__main-content__titlepart {
@@ -72,9 +71,4 @@
     .subscribe__main-content__text {
         font-size: 44px;
     }
-}
-
-.test-image{
-    display: block;
-    width: 50%;
 }
