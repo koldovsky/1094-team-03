@@ -16,6 +16,8 @@
     --btn-email-background-color-grey: #ffffff1f;
     --title-font-family: 'Saira', sans-serif;
     --paragraphs-font-family: 'Merriweather', serif;;
+    --text-color-white-for-whyus: rgb(255, 255, 255);
+    --text-color-gray: rgb(194, 194, 194);
 }
 
 img {
