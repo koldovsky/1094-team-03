@@ -1,10 +1,6 @@
-.subscribe{	
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.subscribe {	
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url(..img/subscribe-to-get/bag-in-hand.webp);
+    url(img/subscribe-to-get/bag-in-hand.webp);
     background-position: center;
     background-size: cover;
     max-width: 1624px;
@@ -12,33 +8,31 @@
     padding-top: 80px;
     padding-bottom: 90px;
 }
-.subscribe__main-content__titlepart{
+.subscribe__main-content__titlepart {
     min-width: 265px;
 }
-.subscribe__main-content{
+.subscribe__main-content {
     display: flex;
     padding-left: 24px;
     padding-right: 24px;
 }
-
-.subscribe__main-content__text{
+.subscribe__main-content__text {
     font-family: Saira, sans-serif;
     font-size: 44px;
     color: var(--text-color-white);
 }
-
-.subscribe__main-content__description{
+.subscribe__main-content__description {
     font-family: Merriweather, serif;
     font-size: 16px;
     color: var(--text-color-white);
 }
-.subscribe__main-content__form{
-    justify-content: center;
-    align-items: center;
+.subscribe__main-content__form {
+    display: flex;
+    align-items: stretch;
     font-family: Merriweather, serif;
     font-size: 14px;
 }
-.subscribe__main-content__form__email{
+.subscribe__main-content__form__email {
     opacity: 0.33;
     min-width: 272px;
     height: 41.8px;
@@ -49,7 +43,7 @@
     border:none;
     border-radius:20px;
 }
-.subscribe__main-content__form__button{
+.subscribe__main-content__form__button {
     min-width: 272px;
     height: 39px;
     background-color: var(--btn-primary-color-red);
@@ -57,7 +51,7 @@
     border:2px;
     border-radius:20px;
 }
-.subscribe__main-content__form__button:hover{
+.subscribe__main-content__form__button:hover {
     cursor: pointer;
     background-color: var(--btn-hover-color-white);
     color: var(--text-color-black);
