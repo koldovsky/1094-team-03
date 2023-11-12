@@ -1,0 +1,6 @@
+.new-arrivals {
+    background: url("img/block-background-black") 50% 50% / cover no-repeat, rgb(33, 32, 32);
+}
+.new-arrivals h2 {
+    color: var(--text-color-white);
+}
