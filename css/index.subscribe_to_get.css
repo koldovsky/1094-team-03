@@ -1,5 +1,5 @@
 .subscribe {	
-    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
     url("/img/subscribe-to-get/bag-in-hand.webp");
     background-position: center;
     background-size: cover;
@@ -12,7 +12,7 @@
     padding-right: 24px;
 }
 .subscribe__main-content__titlepart {
-    
+    padding: 0 15px;
 }
 .subscribe__main-content__text {
     font-family: Saira, sans-serif;
@@ -30,16 +30,19 @@
 }
 .subscribe__main-content__form__email {
     opacity: 0.33;
+    width: 100%;
     min-width: 272px;
-    height: 41.8px;
+    height: 39px;
     background-color: var(btn-email-background-color-grey);
     background-attachment: scroll;
     background-clip: border-box;
-    color: #ebebeb;
+    color: var(btn-email-background-color-grey);
     border:none;
     border-radius:20px;
+    padding: 10 10px;
 }
 .subscribe__main-content__form__button {
+    width: 100%;
     min-width: 272px;
     height: 39px;
     background-color: var(--btn-primary-color-red);
