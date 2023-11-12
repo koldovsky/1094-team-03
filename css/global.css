@@ -9,6 +9,8 @@
 
 :root {
     scroll-behavior: smooth;
+    --text-color: rgb(255, 255, 255);
+    --small-text-color: rgb(194, 194, 194);
 }
 
 img {
