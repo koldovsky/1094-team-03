@@ -22,6 +22,7 @@
 .gift-packs__arrow-right {
     width: 36px;
     height: 48px;
+    cursor: pointer;
 }
 
 .gift-packs__arrow-left {
