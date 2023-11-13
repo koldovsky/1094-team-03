@@ -16,7 +16,7 @@
     text-align: left;
     justify-content: center;
     align-items: center;
-    color:var(--text-color-black);
+    color:var(--color-for-main-text-on-light-bg);
     padding: 0 15px;
     position: relative;
 }
@@ -35,7 +35,7 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color:var(--text-color);
+    color:var(--color-for-secondary-text-on-light-bg);
 }
 @media (min-width:768px) {
     .great-products {
