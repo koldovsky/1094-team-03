@@ -9,7 +9,6 @@
 
 .products__container {
     font-family: 'Merriweather', serif;
-    width: 272px;
     padding-left: 24px;
     padding-right: 24px;
     display: flex;
@@ -19,7 +18,6 @@
 
 .products__title {
     font-family: 'Saira', sans-serif;
-    display: flex;
     text-align: center;
     font-size: 38px;
     font-weight: 400;
