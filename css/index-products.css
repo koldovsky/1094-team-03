@@ -33,6 +33,7 @@
 
     .product__list {
         grid-template-columns: 1fr 1fr;
+        margin: auto;
     }
 }
 
@@ -40,6 +41,9 @@
 
     .product__list {
         grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1200px;
+        margin: auto;
+        gap: 30px;
     }
 }
 
@@ -50,6 +54,7 @@
     width: 272px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding-left: 15px;
     padding-right: 15px;
