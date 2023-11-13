@@ -97,4 +97,13 @@
     padding: 3px;
   }
   
-  
+@media (min-width:768px) {
+    .new-arrivals h2 {
+        font-size: 44px;
+    }
+}
+@media (min-width:992px) {
+    .new-arrivals h2 {
+        font-size: 50px;
+    }
+}
