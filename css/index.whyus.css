@@ -12,7 +12,7 @@
 }
 
 .whyus__title {
-    color: var(--text-color-white);
+    color: var(--color-for-main-text-on-dark-bg);
     text-align: center;
     font-family: var(--title-font-family);
     font-size: 38px;
@@ -33,14 +33,14 @@
 .whyus__proof {
     margin: 20px auto 20px;
     font-family: var(--title-font-family);
-    color: var(--text-color-white);
+    color: var(--color-for-main-text-on-dark-bg);
     text-align: center;
     font-size: 26px;
     font-weight: 400;
 }
 
 .whyus__cool {
-    color: var(--text-color-gray);
+    color: var(--color-for-secondary-text-on-dark-bg);
     font-family: var(--paragraphs-font-family);
     font-weight: 400;
     font-size: 15px;
@@ -48,4 +48,13 @@
     text-align: center;
     margin-bottom: 50px;
     margin-top: 20px;
+}
+
+.whyus__nav {
+   text-align: center;
+}
+
+.whyus__indicator {
+    padding: 5px;
+    width: 25px;
 }
