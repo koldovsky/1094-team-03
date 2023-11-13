@@ -9,14 +9,18 @@
 
 :root {
     scroll-behavior: smooth;
+    /* btn settings */
     --btn-primary-color-red: #e04141; /* button color Red*/
     --btn-hover-color-white: #ffffff; /* button hover color White*/
-    --text-color-white: #ffffff;
-    --text-color-black: #212020;
     --btn-email-background-color-grey: #ffffff1f;
+    /* font family */
     --title-font-family: 'Saira', sans-serif;
-    --paragraphs-font-family: 'Merriweather', serif;;
-    --text-color-gray: rgb(194, 194, 194);
+    --paragraphs-font-family: 'Merriweather', serif;
+    /* text colors */
+    --color-for-main-text-on-dark-bg: #ffffff;
+    --color-for-secondary-text-on-dark-bg: #c2c2c2;
+    --color-for-main-text-on-light-bg: #212020;
+    --color-for-secondary-text-on-light-bg: #595452;
 }
 
 img {
