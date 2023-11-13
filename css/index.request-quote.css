@@ -14,7 +14,7 @@
     background: rgba(33, 32, 32, 0.85);
 }
 .request-quote__title {
-    color: var(--text-color-white);
+    color: var(--color-for-main-text-on-dark-bg);
     position: relative;
     font-size: 34px;
     font-family: var(--title-font-family);
@@ -28,7 +28,7 @@
     padding: 15px 30px 14px 30px;
     border-radius: 30px;
     font-size: 14px;
-    color: var(--text-color-white);
+    color: #fff;
     background: var(--btn-primary-color-red);
     font-family: var(--paragraphs-font-family);
     border: none;
@@ -36,8 +36,8 @@
     cursor: pointer;
 }
 .request-quote__request:hover {
-    background: var(--text-color-white);
-    color: var(--text-color-black);
+    background: #fff;
+    color: #000;
 }
 
 @media (min-width:768px) {

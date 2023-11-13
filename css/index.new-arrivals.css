@@ -13,7 +13,7 @@
     top: 0;
 }
 .new-arrivals h2 {
-    color: var(--text-color-white);
+    color: var(--color-for-main-text-on-dark-bg);
     text-align: center;
     font-family: var(--title-font-family);
     font-size: 38px;
@@ -32,7 +32,7 @@
 }
 .new-arrivals .carousel__container li {
     padding: 27px;
-    background: var(--text-color-white);
+    background: #fff;
     text-align: center;
     font-family: var(--paragraphs-font-family);
 }
@@ -55,7 +55,7 @@
     padding: 11px 30px 10px 30px;
     border-radius: 20px;
     font-size: 14px;
-    color: var(--text-color-white);
+    color: #fff;
     background: var(--btn-primary-color-red);
     font-family: var(--paragraphs-font-family);
     border: none;
@@ -63,7 +63,7 @@
     cursor: pointer;
 }
 .new-arrivals .carousel__container .carousel__buy:hover {
-    background: var(--text-color-black);
+    background: #000;
 }
 .new-arrivals .carousel__button {
     width: 24px;
