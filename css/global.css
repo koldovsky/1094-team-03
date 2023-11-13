@@ -13,10 +13,10 @@
     --btn-hover-color-white: #ffffff; /* button hover color White*/
     --text-color-white: #ffffff;
     --text-color-black: #212020;
+    --text-color: #595452git;
     --btn-email-background-color-grey: #ffffff1f;
     --title-font-family: 'Saira', sans-serif;
     --paragraphs-font-family: 'Merriweather', serif;;
-    --text-color-white-for-whyus: rgb(255, 255, 255);
     --text-color-gray: rgb(194, 194, 194);
 }
 
@@ -26,11 +26,14 @@ img {
 }
 
 body {
-    max-width: 1624px;
     min-width: 310px;
     margin: auto;
 }
 
 a {
     text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }

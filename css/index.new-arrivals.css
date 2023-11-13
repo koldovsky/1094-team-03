@@ -1,7 +1,16 @@
 .new-arrivals {
     background: url("../img/block-background-black.jpg") 50% 50% / cover no-repeat, rgb(33, 32, 32);
     padding-top: 80px;
-    padding-bottom: 90px
+    padding-bottom: 90px;
+    position: relative;
+}
+.new-arrivals::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 32, 32, 0.56);
+    position: absolute;
+    top: 0;
 }
 .new-arrivals h2 {
     color: var(--text-color-white);
@@ -9,10 +18,14 @@
     font-family: var(--title-font-family);
     font-size: 38px;
     font-weight: 500;
+    position: relative;
 }
 .new-arrivals .carousel__container {
     margin-top: 45px;
     padding: 0 24px;
+}
+.new-arrivals__carousel {
+    position: relative;
 }
 .new-arrivals .carousel__container ul {
     padding: 0 15px;
@@ -39,7 +52,6 @@
 .new-arrivals .carousel__container .carousel__buy {
     margin-top: 24px;
     margin-bottom: 0;
-
     padding: 11px 30px 10px 30px;
     border-radius: 20px;
     font-size: 14px;
@@ -47,4 +59,42 @@
     background: var(--btn-primary-color-red);
     font-family: var(--paragraphs-font-family);
     border: none;
+    transition: .2s;
+    cursor: pointer;
 }
+.new-arrivals .carousel__container .carousel__buy:hover {
+    background: var(--text-color-black);
+}
+.new-arrivals .carousel__button {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #000;
+    opacity: .85;
+    transition: opacity .2s ease-out;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+}
+.new-arrivals .carousel__button.left {
+    left: 28px;
+    transform: rotate(135deg);
+}
+.new-arrivals .carousel__button.right {
+    right: 28px;
+    transform: rotate(-45deg);
+}
+.new-arrivals .carousel__button:hover {
+    opacity: 1;
+}
+.new-arrivals .carousel__button .arrow {
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  
