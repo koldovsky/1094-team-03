@@ -16,13 +16,13 @@
     text-align: left;
     justify-content: center;
     align-items: center;
-    color: rgb(33, 32, 32);
+    color:var(--text-color-black);
     padding: 0 15px;
     position: relative;
 }
 
 .great-products__title {
-    font-family: 'Saira', sans-serif;
+    font-family:var(--title-font-family);
     font-weight: 400;
     font-size: 38px;
     letter-spacing: -1.14px;
@@ -31,11 +31,11 @@
 
 .great-products__text {
     margin-top: 25px;
-    font-family: 'Merriweather', serif;
+    font-family:var(--paragraphs-font-family);
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    color: rgb(89, 84, 82);
+    color:var(--text-color);
 }
 @media (min-width:768px) {
     .great-products {

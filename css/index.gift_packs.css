@@ -9,8 +9,8 @@
 
 .gift-packs__title {
     margin-bottom: 20px;
-    color: rgb(33, 32, 32);
-    font-family: 'Saira', sans-serif;
+    color:var(--text-color-black);
+    font-family: var(--title-font-family);
     font-weight: 400;
     font-size: 38px;
     letter-spacing: -1.14px;
@@ -45,8 +45,8 @@
 }
 
 .gift-pack__card-discription {
-    color: rgb(89, 84, 82);
-    font-family: 'Merriweather', serif;
+    color: var(--text-color);
+    font-family: var(--paragraphs-font-family);
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
