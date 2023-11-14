@@ -20,12 +20,12 @@
 .subscribe__title{
 	font-family: Saira, sans-serif;
     font-size: 38px;
-    color: var(--text-color-white);
+    color: var(--color-for-main-text-on-dark-bg);
 }
 .subscribe__text{
 	font-family: Merriweather, serif;
     font-size: 16px;
-    color: var(--text-color-white);
+    color: var(--color-for-main-text-on-dark-bg);
 }
 
 .subscribe__form{
@@ -52,7 +52,7 @@
 }
 .subscribe__form__button{
 	background-color: var(--btn-primary-color-red);
-	color: var(--text-color-white);
+	color: var(--color-for-main-text-on-dark-bg);
 	border:2px;
 }
 
