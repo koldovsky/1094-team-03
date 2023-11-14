@@ -5,6 +5,7 @@
     padding-top: 80px;
     padding-bottom: 90px;
     background-color: rgb(243, 239, 239);
+    position: relative;
 }
 
 .products__container {
@@ -17,10 +18,12 @@
 }
 
 .products__title {
-    font-family: 'Saira', sans-serif;
+    color: var(--color-for-main-text-on-light-bg);
     text-align: center;
     font-size: 38px;
     font-weight: 400;
+    position: relative;
+    margin-bottom: 0px;
 }
 
 
@@ -64,17 +67,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 .preview_product {
-    width: 210px;
-    height: 210px;
+    width: 100%;
 }
 
 
 .products_photo {
-    width: 210px;
-    height: 210px;
+    width: 100%;
 }
 
 
@@ -91,14 +93,18 @@
     text-decoration: underline;
 }
 
-.price_product {
+.price_text{
     font-size: 17px;
     text-decoration: none;
-    margin: 0px 8px;
     text-align: center;
     color: rgb(224, 65, 65);
     font-weight: 700;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+
 
 .buy_butt {
     font-weight: bold;
@@ -112,4 +118,9 @@
     border: 1.6px;
     width: 86.45px;
     height: 39px;
+    margin-top: 24px;
+}
+
+.buy_butt:hover{
+    background-color: var(--btn-text-color-var2);
 }
