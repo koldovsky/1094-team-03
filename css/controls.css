@@ -1,8 +1,8 @@
 .btn {
     font-weight: bold;
-    font-family: 'Merriweather', serif;
+    font-family: var(--paragraphs-font-family);
     font-weight: 400;
-    color: white;
+    color: var(--btn-text-color-var1);
     background-color: var(--btn-primary-color-red);
     border: thin solid transparent;
     border-radius: 25px;
@@ -11,5 +11,5 @@
 
 }
 .btn:hover {
-    background-color: black;
+    background-color: var(--btn-background-color-var2);
 }

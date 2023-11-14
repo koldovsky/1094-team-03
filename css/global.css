@@ -30,6 +30,8 @@
     --color-for-main-text-on-light-bg: #212020;
     --color-for-secondary-text-on-light-bg: #595452;
     --color-for-price: #e04141;
+    /* background colors */
+    --background-color-for-intro: rgb(243, 239, 239);
 }
 
 img {
