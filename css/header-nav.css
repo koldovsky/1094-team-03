@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
+    background-color: var(--btn-text-color-var1);
     padding: 15px;
     width: 100%;
 }
@@ -10,8 +10,8 @@
     white-space: normal;
     display: block;
     font-size: 34px;
-    color: var(--text-color-black);
-    font-family: 'Saira', sans-serif;
+    color: var(--btn-text-color-var2);
+    font-family: var(--title-font-family);
     font-weight: 400;
 }
 .header__nav {
@@ -28,7 +28,7 @@
 .bar {
     width: 30px;
     height: 3px;
-    background-color: #181515;
+    background-color: var(--btn-background-color-var2);
     margin: 6px 0;
 }
 .header__menu {
@@ -45,7 +45,7 @@
 }
 .header__menu a {
     color: var(--text-color-black);
-    font-family: 'Merriweather', serif;
+    font-family: var(--paragraphs-font-family);
     font-size: 15px;
     font-weight: 400;
 }

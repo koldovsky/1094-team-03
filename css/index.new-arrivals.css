@@ -21,18 +21,22 @@
 }
 .new-arrivals .carousel__container {
     margin-top: 45px;
-    padding: 0 24px;
+    padding: 0 10px;
 }
 .new-arrivals__carousel {
     position: relative;
 }
 .new-arrivals .carousel__container ul {
-    padding: 0 15px;
+    padding: 0;
 }
 .new-arrivals .carousel__container li {
     padding: 27px;
     background: #fff;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .new-arrivals .carousel__container .carousel__title {
     color: var(--color-for-main-text-on-light-bg);
@@ -92,15 +96,52 @@
     border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 3px;
+    margin: 3px;
   }
-  
+
 @media (min-width:768px) {
     .new-arrivals h2 {
         font-size: 44px;
     }
+    .new-arrivals .carousel__button {
+        width: 32px;
+        height: 32px;
+    }
+    .new-arrivals .carousel__button .arrow {
+        border-width: 0 3px 3px 0;
+        padding: 6px;
+        margin: 7px;
+        opacity: 0.9;
+    }
+    .new-arrivals .carousel__container ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
 }
 @media (min-width:992px) {
     .new-arrivals h2 {
         font-size: 50px;
+    }
+    .new-arrivals .carousel__container ul {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .new-arrivals .carousel__container li img {
+        min-height: 215px;
+    }
+}
+@media (min-width:1200px) {
+    .new-arrivals .carousel__button.left {
+        left: -40px;
+    }
+    .new-arrivals .carousel__button.right {
+        right: -40px;
+    }
+    .new-arrivals .carousel__button {
+        background: transparent;
+    }
+    .new-arrivals .carousel__container li img {
+        height: 270px;
     }
 }
