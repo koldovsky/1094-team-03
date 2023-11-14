@@ -3,7 +3,7 @@
     font-family: var(--paragraphs-font-family);
     font-weight: 400;
     color: var(--btn-text-color-var1);
-    background-color: var(--btn-primary-color-red);
+    background-color: var(--btn-background-color);
     border: thin solid transparent;
     border-radius: 25px;
     text-decoration: none;
@@ -12,4 +12,5 @@
 }
 .btn:hover {
     background-color: var(--btn-background-color-var2);
+    color: var(--btn-text-color-var1);
 }
