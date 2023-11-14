@@ -1,6 +1,6 @@
 .subscribe-bg{
 	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-    url(../img/subscribe-to-get/bag-in-hand.webp);
+    url(../img/bag-in-hand.webp);
 	background-position: center;
     background-size: cover;
 	min-width:310px;
