@@ -8,6 +8,14 @@
     position: relative;
 }
 
+.products::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
 .products__container {
     font-family: 'Merriweather', serif;
     padding-left: 24px;
@@ -21,6 +29,9 @@
     color: var(--color-for-main-text-on-light-bg);
     text-align: center;
     font-size: 38px;
+    display: block;
+    width: auto;
+    height: auto;
     font-weight: 400;
     position: relative;
     margin-bottom: 0px;
@@ -76,6 +87,7 @@
 
 
 .products_photo {
+    box-sizing:border-box;
     width: 100%;
 }
 
