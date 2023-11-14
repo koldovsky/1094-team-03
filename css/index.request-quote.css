@@ -27,15 +27,15 @@
     padding: 15px 30px 14px 30px;
     border-radius: 30px;
     font-size: 14px;
-    color: var(--btn-text-color-light);
+    color: var(--btn-text-color-var1);
     background: var(--btn-background-color);
     border: none;
     transition: .2s;
     cursor: pointer;
 }
 .request-quote__request:hover {
-    background: var(--btn-text-color-light);
-    color: var(--btn-text-color-dark);
+    background: var(--btn-text-color-var1);
+    color: var(--btn-text-color-var2);
 }
 
 @media (min-width:768px) {

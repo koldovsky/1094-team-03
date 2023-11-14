@@ -53,14 +53,14 @@
     padding: 11px 30px 10px 30px;
     border-radius: 20px;
     font-size: 14px;
-    color: var(--btn-text-color-light);
+    color: var(--btn-text-color-var1);
     background: var(--btn-background-color);
     border: none;
     transition: .2s;
     cursor: pointer;
 }
 .new-arrivals .carousel__container .carousel__buy:hover {
-    background: var(--btn-text-color-dark);
+    background: var(--btn-text-color-var2);
 }
 .new-arrivals .carousel__button {
     width: 24px;
@@ -88,7 +88,7 @@
     opacity: 1;
 }
 .new-arrivals .carousel__button .arrow {
-    border: solid var(--btn-text-color-light);
+    border: solid var(--btn-text-color-var1);
     border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 3px;

@@ -15,11 +15,11 @@
     --btn-email-background-color-grey: #ffffff1f;
 
     --btn-text-color: #e04141;
-    --btn-text-color-light: #ffffff;
-    --btn-text-color-dark: #212020;
+    --btn-text-color-var1: #ffffff;
+    --btn-text-color-var2: #212020;
     --btn-background-color: #e04141;
-    --btn-background-color-light: #ffffff;
-    --btn-background-color-dark: #212020;
+    --btn-background-color-var1: #ffffff;
+    --btn-background-color-var2: #212020;
 
     /* font family */
     --title-font-family: 'Saira', sans-serif;
