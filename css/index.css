@@ -10,4 +10,6 @@
 @import url(index.subscribe_to_get.css);
 /* controls for buttons */
 @import url(controls.css);
+/* notebooks page */
+@import url(notebooks-carousel.css);
 

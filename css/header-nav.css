@@ -9,6 +9,9 @@
 .header__top h1 {
     white-space: normal;
     display: block;
+    
+}
+.header__top a {
     font-size: 34px;
     color: var(--btn-text-color-var2);
     font-family: var(--title-font-family);
