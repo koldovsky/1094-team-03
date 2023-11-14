@@ -3,13 +3,7 @@
     padding: 80px 24px 90px;
 }
 
-.whyus__track-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
+
 
 .whyus__title {
     color: var(--color-for-main-text-on-dark-bg);
@@ -20,14 +14,11 @@
     margin-bottom: 20px;
 }
 
-.whyus__slide {
-    list-style: none;
-    padding: 40px;
-}
 
 .whyus img {
     width: 70px;
     margin: auto;
+    margin-bottom: 250px;
 }
 
 .whyus__proof {
@@ -50,11 +41,4 @@
     margin-top: 20px;
 }
 
-.whyus__nav {
-   text-align: center;
-}
 
-.whyus__indicator {
-    padding: 5px;
-    width: 25px;
-}
