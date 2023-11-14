@@ -20,12 +20,14 @@
 .subscribe__title{
 	font-family: Saira, sans-serif;
     font-size: 38px;
-    color: var(--color-for-main-text-on-dark-bg);
+    /*color: var(--color-for-main-text-on-dark-bg);*/
+	color:#ffffff;
 }
 .subscribe__text{
 	font-family: Merriweather, serif;
     font-size: 16px;
-    color: var(--color-for-main-text-on-dark-bg);
+    /*color: var(--color-for-main-text-on-dark-bg);*/
+	color:#ffffff;
 }
 
 .subscribe__form{
@@ -48,11 +50,12 @@
 .subscribe__form__email::placeholder{
 	font-size: 14px;
 	font-family: Merriweather, serif;
-	color: var(btn-email-background-color-grey);
+	color: var(--btn-email-background-color-grey);
 }
 .subscribe__form__button{
 	background-color: var(--btn-primary-color-red);
-	color: var(--color-for-main-text-on-dark-bg);
+	/*color: var(--color-for-main-text-on-dark-bg);*/
+	color:#ffffff;
 	border:2px;
 }
 
