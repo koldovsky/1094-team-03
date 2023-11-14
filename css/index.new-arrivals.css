@@ -15,7 +15,6 @@
 .new-arrivals h2 {
     color: var(--color-for-main-text-on-dark-bg);
     text-align: center;
-    font-family: var(--title-font-family);
     font-size: 38px;
     font-weight: 500;
     position: relative;
@@ -34,10 +33,9 @@
     padding: 27px;
     background: #fff;
     text-align: center;
-    font-family: var(--paragraphs-font-family);
 }
 .new-arrivals .carousel__container .carousel__title {
-    color: var(--text-color-black);
+    color: var(--color-for-main-text-on-light-bg);
     font-size: 17px;
 }
 .new-arrivals .carousel__container .carousel__title:hover {
@@ -45,7 +43,7 @@
 }
 .new-arrivals .carousel__container .carousel__price {
     font-size: 17px;
-    color: var(--btn-primary-color-red);
+    color: var(--color-for-price);
     font-weight: 700;
     margin-top: 10px;
 }
@@ -55,15 +53,14 @@
     padding: 11px 30px 10px 30px;
     border-radius: 20px;
     font-size: 14px;
-    color: #fff;
-    background: var(--btn-primary-color-red);
-    font-family: var(--paragraphs-font-family);
+    color: var(--btn-text-color-light);
+    background: var(--btn-background-color);
     border: none;
     transition: .2s;
     cursor: pointer;
 }
 .new-arrivals .carousel__container .carousel__buy:hover {
-    background: #000;
+    background: var(--btn-text-color-dark);
 }
 .new-arrivals .carousel__button {
     width: 24px;
@@ -91,7 +88,7 @@
     opacity: 1;
 }
 .new-arrivals .carousel__button .arrow {
-    border: solid white;
+    border: solid var(--btn-text-color-light);
     border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 3px;

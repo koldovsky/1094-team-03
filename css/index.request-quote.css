@@ -17,7 +17,6 @@
     color: var(--color-for-main-text-on-dark-bg);
     position: relative;
     font-size: 34px;
-    font-family: var(--title-font-family);
     font-weight: 400;
     line-height: 1.11;
     letter-spacing: -0.4px;
@@ -28,16 +27,15 @@
     padding: 15px 30px 14px 30px;
     border-radius: 30px;
     font-size: 14px;
-    color: #fff;
-    background: var(--btn-primary-color-red);
-    font-family: var(--paragraphs-font-family);
+    color: var(--btn-text-color-light);
+    background: var(--btn-background-color);
     border: none;
     transition: .2s;
     cursor: pointer;
 }
 .request-quote__request:hover {
-    background: #fff;
-    color: #000;
+    background: var(--btn-text-color-light);
+    color: var(--btn-text-color-dark);
 }
 
 @media (min-width:768px) {
