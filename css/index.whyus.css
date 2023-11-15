@@ -13,7 +13,9 @@
     font-weight: 400;
     margin-bottom: 20px;
 }
-
+.whyus_inner {
+  margin-top: 40px;
+}
 
 .whyus img {
     width: 70px;
@@ -22,7 +24,7 @@
 }
 
 .whyus__proof {
-    margin: 20px auto 20px;
+    margin: 50px auto 20px;
     font-family: var(--title-font-family);
     color: var(--color-for-main-text-on-dark-bg);
     text-align: center;
