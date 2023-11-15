@@ -1,8 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
-h1 {
+.collection__title {
     color: white;
     background: black;
+    text-align: center;
 }
 
+.holders{
+    display: block;
+    
+}
+.btn collection__holders{
+
+}
+.Illustration_holders{
+
+}
+.btn collection__wallets{
+
+}
+.llustration__wallets{
+
+}
+.btn collection__cases{
+
+}
+.Illustration__cases{
+
+}
+.button__learn_more{
+    
+}
