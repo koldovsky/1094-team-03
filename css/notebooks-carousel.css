@@ -1,0 +1,11 @@
+section.notebooks {
+    background: var(--btn-background-color-var2);
+}
+.notebooks-carousel__products-list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+}
+.container {
+    max-width: 1200px;
+}

@@ -1,8 +1,15 @@
 @import url(global.css);
-@import url(index.subscribe_to_get.css);
 @import url(header-nav.css);
 @import url(index-product-intro.css);
+@import url(index-products.css);
 @import url(index.gift_packs.css);
+@import url(index.new-arrivals.css);
+@import url(index.request-quote.css);
 @import url(index.great_products.css);
 @import url(index.whyus.css);
-@import url(index-products.css)
+@import url(index.subscribe_to_get.css);
+/* controls for buttons */
+@import url(controls.css);
+/* notebooks page */
+@import url(notebooks-carousel.css);
+

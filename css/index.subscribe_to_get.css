@@ -1,57 +1,73 @@
-.subscribe {	
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
-    url("/img/subscribe-to-get/bag-in-hand.webp");
-    background-position: center;
+.subscribe-bg{
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(../img/bag-in-hand.webp);
+	background-position: center;
     background-size: cover;
-    min-height: 591px;
-    padding: 80px, 24px, 90px,24px;
-    width: 100%;
+	min-width:310px;
+	min-height: 591px;
 }
-.subscribe__main-content {
-    padding-left: 24px;
-    padding-right: 24px;
+.subscribe{
+	display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 24px 90px 24px;
+	min-width:310px;
+	max-width:643px;
+	margin-left:auto;
+	margin-right:auto;
 }
-.subscribe__main-content__titlepart {
-    padding: 0 15px;
-}
-.subscribe__main-content__text {
-    font-family: Saira, sans-serif;
+.subscribe__title{
+	font-family: Saira, sans-serif;
     font-size: 38px;
-    color: var(--text-color-white);
+    /*color: var(--color-for-main-text-on-dark-bg);*/
+	color:#ffffff;
 }
-.subscribe__main-content__description {
-    font-family: Merriweather, serif;
+.subscribe__text{
+	font-family: Merriweather, serif;
     font-size: 16px;
-    color: var(--text-color-white);
+    /*color: var(--color-for-main-text-on-dark-bg);*/
+	color:#ffffff;
 }
-.subscribe__main-content__form {
-    font-family: Merriweather, serif;
-    font-size: 14px;
+
+.subscribe__form{
+	padding-top:50px;
 }
-.subscribe__main-content__form__email {
-    opacity: 0.33;
-    width: 100%;
-    min-width: 272px;
-    height: 39px;
-    background-color: var(btn-email-background-color-grey);
-    background-attachment: scroll;
-    background-clip: border-box;
-    color: var(btn-email-background-color-grey);
-    border:none;
-    border-radius:20px;
-    padding: 10 10px;
+.subscribe__form__email, .subscribe__form__button{
+	width: 100%;
+	min-width: 272px;
+	height: 39px;
+	border-radius:20px;
+	margin-bottom:15px;
 }
-.subscribe__main-content__form__button {
-    width: 100%;
-    min-width: 272px;
-    height: 39px;
-    background-color: var(--btn-primary-color-red);
-    color: var(--text-color-white);
-    border:2px;
-    border-radius:20px;
+.subscribe__form__email{
+	opacity: 0.15;
+	border:none;
+	background-attachment: scroll;
+	background-clip: border-box;
+	padding-left: 30px;
 }
-.subscribe__main-content__form__button:hover {
-    cursor: pointer;
-    background-color: var(--btn-hover-color-white);
-    color: var(--text-color-black);
+.subscribe__form__email::placeholder{
+	font-size: 14px;
+	font-family: Merriweather, serif;
+	color: var(--btn-email-background-color-grey);
+}
+.subscribe__form__button{
+	background-color: var(--btn-primary-color-red);
+	/*color: var(--color-for-main-text-on-dark-bg);*/
+	color:#ffffff;
+	border:2px;
+}
+
+@media (min-width: 768px) {
+    .subscribe{
+		display:flex;
+		min-width:768px;
+        flex-direction: row;
+		justify-content: center;
+		align-items: center;
+    }
+	.subscribe__form{
+		padding-top:0px;
+	}
 }

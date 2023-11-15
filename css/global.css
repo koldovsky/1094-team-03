@@ -9,11 +9,26 @@
 
 :root {
     scroll-behavior: smooth;
-    --btn-primary-color-red: #e04141; /* button color Red*/
-    --btn-hover-color-white: #ffffff; /* button hover color White*/
-    --text-color-white: #ffffff;
-    --text-color-black: #212020;
+    /* btn settings */
     --btn-email-background-color-grey: #ffffff1f;
+    --btn-text-color: #e04141;
+    --btn-text-color-var1: #ffffff;
+    --btn-text-color-var2: #212020;
+    --btn-background-color: #e04141;
+    --btn-background-color-var1: #ffffff;
+    --btn-background-color-var2: #212020;
+
+    /* font family */
+    --title-font-family: 'Saira', sans-serif;
+    --paragraphs-font-family: 'Merriweather', serif;
+    /* text colors */
+    --color-for-main-text-on-dark-bg: #ffffff;
+    --color-for-secondary-text-on-dark-bg: #c2c2c2;
+    --color-for-main-text-on-light-bg: #212020;
+    --color-for-secondary-text-on-light-bg: #595452;
+    --color-for-price: #e04141;
+    /* background colors */
+    --background-color-for-intro: rgb(243, 239, 239);
 }
 
 img {
@@ -21,8 +36,20 @@ img {
     width: 100%;
 }
 
-body{
-    max-width: 1624px;
+body {
     min-width: 310px;
     margin: auto;
+    font-family: var(--paragraphs-font-family);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2, h3 {
+    font-family: var(--title-font-family);
 }
