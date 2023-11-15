@@ -43,4 +43,16 @@
     margin-top: 20px;
 }
 
+@media (min-width:768px) {
+    .whyus__title{
+        font-size: 50px;
+    }
+    .whyus img {
+        width: 100px; 
+    } 
+  .whyus__proof {
+    font-size: 34px;
+  }
+
+}
 
