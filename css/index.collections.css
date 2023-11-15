@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 nav {
-    background-color: #000; 
-    color: #fff; 
-    padding: 50px 0; 
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -17,7 +17,7 @@ nav {
 
 .collection {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -29,18 +29,16 @@ nav {
 .collection img {
     width: 100%;
     height: auto;
-    border-radius: 10px; 
-    object-fit: cover;
+    max-width: 100%;
 }
 
 .btn {
     display: block;
-    background-color: #e04141; 
-    color: #fff; 
+    background-color: #e04141;
+    color: #fff;
     padding: 10px 20px;
     margin-top: 10px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -55,7 +53,7 @@ nav {
     background-color: #e04141;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
