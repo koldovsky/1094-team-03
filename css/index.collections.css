@@ -1,41 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
+.collection-section {
+    background-color: #333; 
+    color: #fff; 
+    padding: 50px 0; 
+}
+
+
 .collection__title {
-    color: white;
-    background: black;
+    font-family: 'Saira', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
     text-align: center;
+    margin-bottom: 30px;
 }
 
-.holders {
+.collection__holders,
+.collection__wallets,
+.collection__cases {
     display: block;
-
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.btn collection__holders {}
-
-.Illustration_holders {
-    object-position: 50% 50%;
-    object-fit: cover;
-}
-
-.btn collection__wallets {}
-
-.llustration__wallets {
-    object-position: 76.89% 79.385%;
-    object-fit: cover;
-}
-
-.btn collection__cases {}
-
+.Illustration_holders,
+.llustration__wallets,
 .Illustration__cases {
-    object-position: 50% 50%;
+    width: 100%;
+    height: auto;
     object-fit: cover;
+    border-radius: 10px; 
 }
 
 .button__learn_more {
     display: inline-block;
-    position: relative;
-    max-width: 100%;
-    word-wrap: break-word;
+    padding: 15px 30px;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #e04141;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button__learn_more:hover {
+    background-color: #333;
 }
