@@ -1,40 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
-.collection-section {
-    background-color: #333; 
-    color: #fff; 
+nav {
+    background-color: #000; 
+    color: #fff; /
     padding: 50px 0; 
+    text-align: center;
 }
-
 
 .collection__title {
     font-family: 'Saira', sans-serif;
     font-size: 36px;
     font-weight: bold;
-    text-align: center;
     margin-bottom: 30px;
 }
 
-.collection__holders,
-.collection__wallets,
-.collection__cases {
-    display: block;
-    text-align: center;
-    margin-bottom: 20px;
+.collection {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
 }
 
-.Illustration_holders,
-.llustration__wallets,
-.Illustration__cases {
+
+.collection-item {
+    text-align: center;
+}
+
+.collection img {
     width: 100%;
     height: auto;
-    object-fit: cover;
     border-radius: 10px; 
+    object-fit: cover;
+    margin: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #e04141; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .button__learn_more {
     display: inline-block;
+    margin-top: 20px;
     padding: 15px 30px;
     font-family: 'Merriweather', serif;
     font-size: 18px;
