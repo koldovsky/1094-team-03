@@ -1,2 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.collection-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-inner {
+    text-align: center;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.grid-item {
+    flex: 1 0 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.block-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+}
+
+.collection-content {
+    margin-top: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item-inner {
+    position: relative;
+}
+
+.image-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgba(224, 65, 65, 0.8);
+    color: #fff;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.grid-item:hover .image-caption {
+    opacity: 1;
+}
+
+/* Footer Styles */
+.section-footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.btns-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-item {
+    padding: 10px 20px;
+    background-color: #e04141;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-item:hover {
+    background-color: #333;
+}
