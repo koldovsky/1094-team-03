@@ -7,28 +7,35 @@
     text-align: center;
 }
 
-.holders{
+.holders {
     display: block;
-    
-}
-.btn collection__holders{
 
 }
-.Illustration_holders{
 
-}
-.btn collection__wallets{
+.btn collection__holders {}
 
+.Illustration_holders {
+    object-position: 50% 50%;
+    object-fit: cover;
 }
-.llustration__wallets{
 
-}
-.btn collection__cases{
+.btn collection__wallets {}
 
+.llustration__wallets {
+    object-position: 76.89% 79.385%;
+    object-fit: cover;
 }
-.Illustration__cases{
 
+.btn collection__cases {}
+
+.Illustration__cases {
+    object-position: 50% 50%;
+    object-fit: cover;
 }
-.button__learn_more{
-    
+
+.button__learn_more {
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
 }
