@@ -3,7 +3,7 @@
 
 nav {
     background-color: #000; 
-    color: #fff; /
+    color: #fff; 
     padding: 50px 0; 
     text-align: center;
 }
@@ -21,9 +21,9 @@ nav {
     flex-wrap: wrap;
 }
 
-
 .collection-item {
     text-align: center;
+    margin: 10px;
 }
 
 .collection img {
@@ -31,14 +31,14 @@ nav {
     height: auto;
     border-radius: 10px; 
     object-fit: cover;
-    margin: 10px;
 }
 
 .btn {
-    display: inline-block;
+    display: block;
     background-color: #e04141; 
     color: #fff; 
     padding: 10px 20px;
+    margin-top: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
