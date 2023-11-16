@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+
+.blog {
+    background-color: black;
+}
+
+.blog__title {
+    text-align: center;
+    color: white;
+    font-size: 44px;
+    width: auto;
+    height: auto;
+    position:relative;
+    margin-top: 40px;
+}
+
+.blog__items {
+    display: grid;
+    column-gap: 5px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.blog__item {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+}
+
+.blog__title__description,
+.blog__image__description,
+.blog__image__signature {
+    color:white;
+    margin: 0;
+    position: inherit;
+    padding-bottom: 20px;
+}
+
+.blog__image {
+    box-sizing: border-box;
+    min-width: 320px;
+    padding-top: 25px;
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+@media(min-width: 767px) {
+    .blog__items {
+        grid-template-columns: 1fr 1fr;
+        margin-right: 20px;
+    }
+}
+
+@media(min-width: 992px) {
+    .blog__items {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1200;
+        margin-right: 20px;
+    }
+}
