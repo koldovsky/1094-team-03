@@ -11,7 +11,7 @@
 .subscribe{
 	display: block;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 80px 24px 90px 24px;
 	min-width:310px;
@@ -59,7 +59,7 @@
 }
 
 .subscribe__form__email:focus{
-	border-color: var(--outline-color);
+	outline-color: var(--outline-color);
 }
 
 .subscribe__form__button{
@@ -80,10 +80,10 @@
 		display:flex;
 		min-width:768px;
         flex-direction: row;
-		justify-content: center;
+		justify-content: space-around;
 		align-items: stretch;
     }
 	.subscribe__form{
-		padding-bottom: 15px;
+		margin-top: 8px;
 	}
 }
