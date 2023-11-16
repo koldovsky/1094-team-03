@@ -10,7 +10,7 @@
     font-size: 44px;
     width: auto;
     height: auto;
-    position:relative;
+    position: relative;
     margin-top: 40px;
 }
 
@@ -30,7 +30,7 @@
 .blog__title__description,
 .blog__image__description,
 .blog__image__signature {
-    color:white;
+    color: white;
     margin: 0;
     position: inherit;
     padding-bottom: 20px;
