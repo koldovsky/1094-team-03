@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.products {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background-color: rgb(243, 239, 239);
+    position: relative;
+}
+
+
+.products__container {
+    font-family: 'Merriweather', serif;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.products__title {
+    color: var(--color-for-main-text-on-light-bg);
+    text-align: center;
+    font-size: 38px;
+    display: block;
+    width: auto;
+    height: auto;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+
+.product__list {
+    display: grid;
+    column-gap: 15px;
+}
+
+@media(min-width: 768px) {
+
+    .product__list {
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }
+}
+
+@media(min-width: 992px) {
+
+    .product__list {
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1200px;
+        margin: auto;
+        gap: 30px;
+    }
+}
+
+.product_appearance {
+    background-color: #fff;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.inf_product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.inf_product_Leather-Purse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.preview_product {
+    width: 100%;
+}
+
+
+.products_photo {
+    box-sizing:border-box;
+    width: 100%;
+}
+
+
+.name_product {
+    font-size: 17px;
+    text-decoration: none;
+    margin: 8px 0px 0px 0px;
+    text-align: center;
+    color: rgb(33, 32, 32);
+    display: flex;
+}
+
+.name_product:hover {
+    text-decoration: underline;
+}
+
+.price_text{
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(224, 65, 65);
+    font-weight: 700;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.buy_butt {
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    color: white;
+    background-color: var(--btn-background-color);
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1.6px;
+    width: 86.45px;
+    height: 39px;
+    margin-top: 24px;
+}
+
+.buy_butt:hover{
+    background-color: var(--btn-text-color-var2);
+}
+
+.product_button_Briefcase{
+    padding-top: 40px;
+}

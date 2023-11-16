@@ -1,41 +1,54 @@
+
 <section class="whyus">
-  <h2 class="whyus__tittle">Why Us</h2>
-  <div class="whyus__track-container">
-    <ul class="whyus__track">
-      <li class="whyus__slide">
-        <img width="70" src="img/why-us/hand-made.svg" alt="handmade" class="whyus__image">
-        <h3 class="whyus__h3">Handmade</h3>
-        <p class="whyus__p">Our craftsmen work with each client individually to create bespoke one-of-a-kind product
-          that reflects their unique taste.</p>
-      </li>
-      <li class="whyus__slide">
-        <img width="70" src="img/why-us/top-quality-leather.svg" alt="top-quality-leather" class="whyus__image">
-        <h3 class="whyus__h3">Top-Quality Leather</h3>
-        <p class="whyus__p"> We want our work to last for generations, and therefore use only the highest quality
-          leather and findings.</p>
-      </li>
-      <li class="whyus__slide">
-        <img width="70" src="img/why-us/irish-waxed-linen.svg" alt="irish-waxed-linen" class="whyus__image">
-        <h3 class="whyus__h3">Irish Waxed Linen</h3>
-        <p class="whyus__p">We've sourced the finest quality European linen and other contemporary materials for our
-          products.</p>
-      </li>
-      <li class="whyus__slide">
-        <img width="70" src="img/why-us/craftsmanship.svg" alt="craftsmanship" class="whyus__image">
-        <h3 class="whyus__h3">Craftsmanship</h3>
-        <p class="whyus__p">We combine traditional techniques and modern manufacturing technologies to create exquisite
-          yet durable pieces.</p>
-      </li>
-    </ul>
-  </div>
-
-  <button class="whyus__button whyus__button--left" type="button">←</button>
-  <button class="whyus__button whyus__button--right" type="button">→</button>
-
-  <div class="whyus__nav">
-    <button class="whyus__indicator whyus__indicator--active" type="button" data-slide-to="0"></button>
-    <button class="whyus__indicator" type="button" data-slide-to="1"></button>
-    <button class="whyus__indicator" type="button" data-slide-to="2"></button>
-    <button class="whyus__indicator" type="button" data-slide-to="3"></button>
+  <h2 class="whyus__title">Why Us</h2>
+  <div id="whyus__carousel" class="carousel slide container">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#whyus__carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#whyus__carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#whyus__carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#whyus__carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner whyus_inner">
+      <div class="carousel-item active">
+        <img src="img/why-us/hand-made.svg" class="d-block w-20 mx-auto" alt="hand-made">
+        <div class="carousel-caption d-block">
+          <h5 class="whyus__proof">Handmade</h5>
+          <p class="whyus__cool">Our craftsmen work with each client individually to create bespoke one-of-a-kind product
+            that reflects their unique taste.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/why-us/top-quality-leather.svg" class="d-block w-20 mx-auto" alt="top-quality-leather">
+        <div class="carousel-caption d-block">
+          <h5 class="whyus__proof">Top-Quality Leather</h5>
+          <p class="whyus__cool">We want our work to last for generations, and therefore use only the highest quality
+            leather and findings.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/why-us/irish-waxed-linen.svg" class="d-block w-20 mx-auto" alt="irish-waxed-linen">
+        <div class="carousel-caption d-block">
+          <h5 class="whyus__proof">Irish Waxed Linen</h5>
+          <p class="whyus__cool">We've sourced the finest quality European linen and other contemporary materials for our
+            products.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/why-us/craftsmanship.svg" class="d-block w-20 mx-auto" alt="craftsmanship">
+        <div class="carousel-caption d-block">
+          <h5 class="whyus__proof">Craftsmanship</h5>
+          <p class="whyus__cool">We combine traditional techniques and modern manufacturing technologies to create exquisite
+            yet durable pieces.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#whyus__carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#whyus__carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 </section>

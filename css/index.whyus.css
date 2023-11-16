@@ -1,0 +1,60 @@
+.whyus {
+    background-image: url(../img/why-us/black-cloth.jpeg);
+    padding: 80px 24px 90px;
+}
+
+
+
+.whyus__title {
+    color: var(--color-for-main-text-on-dark-bg);
+    text-align: center;
+    font-family: var(--title-font-family);
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.whyus_inner {
+    margin-top: 40px;
+}
+
+.whyus img {
+    width: 70px;
+    margin: auto;
+    margin-bottom: 250px;
+}
+
+.whyus__proof {
+    margin: 50px auto 20px;
+    font-family: var(--title-font-family);
+    color: var(--color-for-main-text-on-dark-bg);
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.whyus__cool {
+    color: var(--color-for-secondary-text-on-dark-bg);
+    font-family: var(--paragraphs-font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+@media (min-width:768px) {
+    .whyus__title {
+        font-size: 50px;
+    }
+
+    .whyus img {
+        width: 100px;
+    }
+
+    .whyus__proof {
+        font-size: 34px;
+    }
+
+}

@@ -1,32 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-
-.header__top {
-    text-align: center;
-    margin-top: 40px;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--btn-text-color-var1);
+    padding: 15px;
+    width: 100%;
 }
 .header__top h1 {
+    white-space: normal;
+    display: block;
+    
+}
+.header__top a {
     font-size: 34px;
-    font-family: 'Saira', sans-serif;
+    color: var(--btn-text-color-var2);
+    font-family: var(--title-font-family);
+    font-weight: 400;
 }
 .header__nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 5px;
 }
-.header__menu, .header__submenu {
+.burger-btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 10px;
     display: flex;
+    flex-direction: column;
+}
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: var(--btn-background-color-var2);
+    margin: 6px 0;
+}
+.header__menu {
+    display: none;
+}
+
+.header__menu.active {
+    display: block;
+}
+@media (min-width: 325px) {.header__top h1 {white-space: nowrap;}}
+
+.header__menu__item, .header__submenu__item {
     list-style: none;
 }
-.header__menu__item {
-    margin-right: 25px;
-    font-size: 18px;
-    font-family: 'Merriweather', serif;
+.header__menu a {
+    color: var(--text-color-black);
+    font-family: var(--paragraphs-font-family);
+    font-size: 15px;
+    font-weight: 400;
 }
-.header__menu__item a {
-    text-decoration: none;
-    color: black;
-}
-.header__menu__item a:hover {
-    color: red;
+@media (min-width: 992px) 
+    {.header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__top {
+        padding: 30px 40px 30px 40px;
+    }
+    .header__nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px 40px 50px 40px;
+    }
+    .header__menu {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .burger-btn {
+        display: none;
+    }
+    .header__menu__item {
+        margin: 10px 15px 10px 15px;
+    }
 }

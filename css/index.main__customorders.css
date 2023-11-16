@@ -1,6 +1,44 @@
-.customorders {
-    background-image: url("../img/branding/man.webp");
-	min-height: 500px;
-	background-size: cover;
-	background-position: center ;
+
+.customorders{
+	background: 
+	url(man.webp);
+	min-height: 600px;
+	background-size: cover ;
+    background-position: center ;
+ 
+}
+
+.branding__container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+
+.branding__grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.branding__title {
+	font-family: Saira, sans-serif;
+    font-size: 50px;
+	color:#212020;
+}
+
+.branding__text {
+	font-family: Merriweather, serif;
+    font-size: 15px;
+	color:#595452;
+}
+
+.branding__button {
+	outline: none;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 25px;
+	font-family: Merriweather, serif;
+	font-size: 14px;
+	color:#212020;
 }

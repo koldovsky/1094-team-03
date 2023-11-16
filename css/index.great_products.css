@@ -1,36 +1,103 @@
 .great-products {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 80px 0 50px;
+    margin: 0 10px;
 }
 
 .great-products__img-container {
-    max-width: 570px;
+    padding: 0 15px;
 }
 
+
 .great-products__text-container {
-    display: block;
-    max-width: 600px;
+    margin-top: 50px;
     text-align: left;
-    color: rgb(33, 32, 32);
+    justify-content: center;
+    align-items: center;
+    color: var(--color-for-main-text-on-light-bg);
     padding: 0 15px;
     position: relative;
 }
 
 .great-products__title {
-    font-family: Saira, sans-serif;
-    font-family: 'Saira', sans-serif;
+    font-family: var(--title-font-family);
     font-weight: 400;
-    font-size: 50px;
-    letter-spacing: -1.5px;
-    line-height: 55px;
+    font-size: 38px;
+    letter-spacing: -1.14px;
+    line-height: 41.8px;
 }
 
 .great-products__text {
-    margin-top: 45px;
-    font-family: 'Merriweather', serif;
+    margin-top: 25px;
+    font-family: var(--paragraphs-font-family);
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
+    color: var(--color-for-secondary-text-on-light-bg);
+}
+
+@media (min-width:768px) {
+    .great-products {
+        flex-direction: row;
+    }
+
+    .great-products__img {
+        min-width: 337px;
+    }
+
+    .great-products__text-container {
+        margin-top: 0;
+        min-width: 337px;
+    }
+
+    .great-products__title {
+        font-size: 44px;
+        letter-spacing: -1.32px;
+        line-height: 48.4px;
+    }
+
+}
+
+@media (min-width:900px) {
+    .great-products__img {
+        max-width: 403px;
+    }
+
+    .great-products__text-container {
+        max-width: 403px;
+    }
+}
+
+@media (min-width:1024px) {
+    .great-products__img {
+        max-width: 457px;
+    }
+
+    .great-products__text-container {
+        max-width: 487px;
+    }
+
+    .great-products__text {
+        margin-top: 45px;
+    }
+
+    .great-products__title {
+        font-size: 50px;
+        letter-spacing: -1.5px;
+        line-height: 55px;
+    }
+
+}
+
+@media(min-width:1440px) {
+    .great-products__img {
+        max-width: 570px;
+    }
+
+    .great-products__text-container {
+        max-width: 570px;
+    }
 }
