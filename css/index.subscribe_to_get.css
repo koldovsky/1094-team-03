@@ -11,7 +11,7 @@
 .subscribe{
 	display: block;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 80px 24px 90px 24px;
 	min-width:310px;
@@ -33,7 +33,7 @@
 }
 
 .subscribe__form{
-	padding-top:50px;
+	margin-top:50px;
 }
 
 .subscribe__form__email, .subscribe__form__button{
@@ -57,8 +57,9 @@
 	font-family: var(--paragraphs-font-family);
 	color: var(--color-for-input-email);
 }
-.subscribe__form__email:active{
-	border: 1px var(--outline-color);
+
+.subscribe__form__email:focus{
+	border-color: var(--outline-color);
 }
 
 .subscribe__form__button{
@@ -67,6 +68,7 @@
 	border: 2px;
 	transition: background 0.5s ease;
 }
+
 .subscribe__form__button:hover{
 	background-color: var(--btn-background-color-var1);
 	color:var(--color-for-main-text-on-light-bg);
@@ -82,6 +84,6 @@
 		align-items: stretch;
     }
 	.subscribe__form{
-		padding-top:0px;
+		padding-bottom: 15px;
 	}
 }
