@@ -3,9 +3,11 @@
     url(../img/bag-in-hand.webp);
 	background-position: center;
     background-size: cover;
+	background-attachment: fixed;
 	min-width:310px;
 	min-height: 591px;
 }
+
 .subscribe{
 	display: block;
     flex-direction: column;
@@ -17,22 +19,23 @@
 	margin-left:auto;
 	margin-right:auto;
 }
+
 .subscribe__title{
-	font-family: Saira, sans-serif;
+	font-family: var(--title-font-family);
     font-size: 38px;
-    /*color: var(--color-for-main-text-on-dark-bg);*/
-	color:#ffffff;
+    color: var(--color-for-main-text-on-dark-bg);
 }
+
 .subscribe__text{
-	font-family: Merriweather, serif;
+	font-family: var(--paragraphs-font-family);
     font-size: 16px;
-    /*color: var(--color-for-main-text-on-dark-bg);*/
-	color:#ffffff;
+    color: var(--color-for-main-text-on-dark-bg);
 }
 
 .subscribe__form{
-	padding-top:50px;
+	margin-top:50px;
 }
+
 .subscribe__form__email, .subscribe__form__button{
 	width: 100%;
 	min-width: 272px;
@@ -40,23 +43,36 @@
 	border-radius:20px;
 	margin-bottom:15px;
 }
+
 .subscribe__form__email{
-	opacity: 0.15;
+	background-color: rgba(255, 255, 255, 0.12);
 	border:none;
 	background-attachment: scroll;
 	background-clip: border-box;
 	padding-left: 30px;
 }
+
 .subscribe__form__email::placeholder{
 	font-size: 14px;
-	font-family: Merriweather, serif;
-	color: var(--btn-email-background-color-grey);
+	font-family: var(--paragraphs-font-family);
+	color: var(--color-for-input-email);
 }
+
+.subscribe__form__email:focus{
+	outline-color: var(--outline-color);
+}
+
 .subscribe__form__button{
-	background-color: var(--btn-primary-color-red);
-	/*color: var(--color-for-main-text-on-dark-bg);*/
-	color:#ffffff;
-	border:2px;
+	background-color: var(--btn-background-color);
+	color: var(--color-for-main-text-on-dark-bg);
+	border: 2px;
+	transition: background 0.5s ease;
+}
+
+.subscribe__form__button:hover{
+	background-color: var(--btn-background-color-var1);
+	color:var(--color-for-main-text-on-light-bg);
+	transition: background 0.5s ease;
 }
 
 @media (min-width: 768px) {
@@ -64,10 +80,10 @@
 		display:flex;
 		min-width:768px;
         flex-direction: row;
-		justify-content: center;
-		align-items: center;
+		justify-content: space-around;
+		align-items: stretch;
     }
 	.subscribe__form{
-		padding-top:0px;
+		margin-top: 8px;
 	}
 }

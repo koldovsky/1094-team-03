@@ -17,6 +17,9 @@
     --btn-background-color: #e04141;
     --btn-background-color-var1: #ffffff;
     --btn-background-color-var2: #212020;
+    
+    /*border*/
+    --outline-color: #3b99fc;
 
     /* font family */
     --title-font-family: 'Saira', sans-serif;
@@ -27,6 +30,7 @@
     --color-for-main-text-on-light-bg: #212020;
     --color-for-secondary-text-on-light-bg: #595452;
     --color-for-price: #e04141;
+    --color-for-input-email: #ebebeb;
     /* background colors */
     --background-color-for-intro: rgb(243, 239, 239);
 }
@@ -40,6 +44,10 @@ body {
     min-width: 310px;
     margin: auto;
     font-family: var(--paragraphs-font-family);
+}
+
+.container {
+    max-width: 1200px;
 }
 
 a {
