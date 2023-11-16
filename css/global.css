@@ -17,6 +17,7 @@
     --btn-background-color: #e04141;
     --btn-background-color-var1: #ffffff;
     --btn-background-color-var2: #212020;
+    --btn-carousel-background-color: #000;
     
     /*border*/
     --outline-color: #3b99fc;
@@ -33,6 +34,8 @@
     --color-for-input-email: #ebebeb;
     /* background colors */
     --background-color-for-intro: rgb(243, 239, 239);
+    --background-color-darken: #212020;
+    --background-color-light: #fff;
 }
 
 img {
