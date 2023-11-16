@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+
 .blog {
     background-color: black;
 }
 
 .blog__title {
-    color: white;
-    margin: 0;
     text-align: center;
-    position: inherit;
+    color: white;
+    max-width: 992px;
+    margin: 0;
+    position: relative;
+}
+
+.blog__items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .blog__title__description,
@@ -14,9 +23,17 @@
 .blog__image__signature {
     color:white;
     margin: 0;
-    position:inherit;
+    position: inherit;
 }
 
-.blog__items {
-    display: flex;
+.blog__image {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+@media(min-width: 767px) {
+    .blog__items {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto;
+    }
 }
