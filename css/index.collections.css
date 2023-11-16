@@ -15,23 +15,27 @@ nav {
     margin-bottom: 30px;
 }
 
+
 .collection {
     display: flex;
     justify-content: center; 
     align-items: center; 
 }
 
+
 .collection-item {
     text-align: center;
     margin: 10px;
 }
 
+
 .collection img {
     width: 100%;
     height: auto;
-    max-width: 100%; 
-    border-radius: 0;
+    max-width: 100%;
+    border-radius: 0; 
 }
+
 
 .Illustration_holders {
     max-width: 740px;
@@ -39,8 +43,8 @@ nav {
 }
 
 .Illustration__wallets {
-    max-width: 740px;
-    max-height: 1100px;
+    max-width: 989px;
+    max-height: 659px;
 }
 
 .Illustration__cases {
@@ -50,25 +54,24 @@ nav {
 
 .btn {
     display: block;
-    background-color: #e04141; 
-    color: #fff; 
+    background-color: #e04141;
+    color: #fff;
     padding: 15px 30px;
     margin-top: 10px;
     border: none;
     cursor: pointer;
-    border-radius: 0;
+    border-radius: 0; 
 }
-
 
 .button__learn_more {
     display: inline-block;
     margin-top: 20px;
-    padding: 20px 40px;
+    padding: 20px 40px; 
     font-family: 'Merriweather', serif;
     font-size: 18px;
     font-weight: bold;
     text-decoration: none;
-    background-color: #6d5e5e;
+    background-color: #413939;
     color: #fff;
     border: none;
     border-radius: 50px; 
