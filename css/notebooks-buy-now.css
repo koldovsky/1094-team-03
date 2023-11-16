@@ -1,0 +1,84 @@
+.notebooks-buy-now {
+    background-image: url(/pages/notebooks/img/notebooks-buy_now-backgr-img.webp);
+    padding: 90px 24px 90px 24px;
+}
+.notebooks-buy-now__form-wraper {
+    background-color: var(--background-color-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 43px 55px 43px 55px;
+    height: auto;
+    width: 100%;
+    max-width: 719px;
+    transition: margin-left 3.5s ease;
+}
+.notebooks-buy-now__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.notebooks-buy-now__heading-main-t {
+    font-family: var(--title-font-family);
+    color: var(--color-for-main-text-on-light-bg);
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.notebooks-buy-now__heading-text {
+    text-align: center;
+    font-family: var(--paragraphs-font-family);
+    color: var(notebooks-buy-now__heading-text);
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.notebooks-buy-now form {
+    margin-top: 25px;
+    width: 100%;
+    max-width: 609px;
+}
+.notebooks-buy-now form input, textarea {
+    margin-top: 12px;
+    padding: 13px 30px 12px 30px;
+    text-overflow: ellipsis;
+    width: 100%;
+    border: thin solid transparent;
+    border-radius: 25px;
+    background-color: var(--color-for-input-email);
+}
+.notebooks-buy-now form input::placeholder {
+    font-family: var(--paragraphs-font-family);
+    font-size: 14px;
+}
+
+textarea {
+    min-height: 150px;
+}
+textarea::placeholder {
+    font-family: var(--paragraphs-font-family);
+    font-size: 14px;
+}
+
+.buy-now__btn {
+    margin-top: 56px;
+    width: 100%;
+}
+@media (min-width: 767px) 
+{
+    .notebooks-buy-now__form-wraper {
+        width: calc(337.5px + 15vw);
+        max-width: 570px;
+    }
+    .notebooks-buy-now form {
+        width: calc(197px + 15vw);
+        max-width: 370px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .notebooks-buy-now__form-wraper {
+        margin-left: 220px;
+    }
+}

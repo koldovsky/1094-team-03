@@ -11,9 +11,10 @@
 @import url(index.subscribe_to_get.css);
 @import url(what-handmade-means.css);
 @import url(crafties);
+@import url(index.collections.css);
 /* controls for buttons */
 @import url(controls.css);
 /* notebooks page */
 @import url(notebooks-carousel.css);
-@import url(index.collections.css);
+@import url(notebooks-buy-now.css);
 
