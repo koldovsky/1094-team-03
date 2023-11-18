@@ -82,7 +82,7 @@
 @media (min-width: 768px) {
 	.subscribe__clear-space{
 		display: block;
-		min-width: 153px;
+		min-width: 155px;
 	}
 
     .subscribe{
@@ -95,6 +95,9 @@
 
 	.subscribe__form{
 		margin-top: 8px;
-		min-width: 153px;
+		min-width: 155px;
+	}
+	.subscribe__form__email, .subscribe__form__button{
+		min-width: 154px;
 	}
 }
