@@ -1,8 +1,4 @@
 .crafties{
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     min-width:310px;
 	max-width:643px;
     margin-left:auto;
@@ -12,6 +8,12 @@
     width: 302px;
 }
 
+.crafties__pictures{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .picture{
     object-fit: cover;
     object-position: 43.898% 44.957%;
