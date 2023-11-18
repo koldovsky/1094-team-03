@@ -24,7 +24,6 @@
 	font-family: var(--title-font-family);
     font-size: 38px;
     color: var(--color-for-main-text-on-dark-bg);
-	padding: 0px 15px;
 }
 
 .subscribe__clear-space{
@@ -97,7 +96,6 @@
         flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		margin: 0px 7px;
 		padding: 0px 40px;
     }
 	.subscribe__content{
