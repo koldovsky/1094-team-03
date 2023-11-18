@@ -82,12 +82,12 @@
 @media (min-width: 768px) {
 	.subscribe__clear-space{
 		display: block;
-		min-width: 30px;
+		min-width: 153px;
 	}
 
     .subscribe{
 		display:flex;
-		min-width:1176px;
+		min-width:770px;
         flex-direction: row;
 		justify-content: center;
 		align-items: center;
@@ -95,10 +95,6 @@
 
 	.subscribe__form{
 		margin-top: 8px;
-	}
-
-	.subscribe__form__email, .subscribe__form__button{
-		min-width: 155px;
-		max-width: 205px;
+		min-width: 153px;
 	}
 }
