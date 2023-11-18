@@ -24,6 +24,7 @@
 	font-family: var(--title-font-family);
     font-size: 38px;
     color: var(--color-for-main-text-on-dark-bg);
+	padding: 0px 15px;
 }
 
 .subscribe__clear-space{
@@ -38,6 +39,7 @@
 
 .subscribe__form{
 	margin-top:50px;
+	padding: 0px 15px;
 }
 
 .subscribe__form__email, .subscribe__form__button{
@@ -82,8 +84,10 @@
 @media (min-width: 768px) {
 	.subscribe__clear-space{
 		display: block;
-		min-width: 183px;
+		min-width: 50px;
 		max-width: 300px;
+		width: 25%;
+		padding: 0px 15px;
 	}
 
     .subscribe{
@@ -93,6 +97,8 @@
         flex-direction: row;
 		justify-content: center;
 		align-items: center;
+		margin: 0px 7px;
+		padding: 0px 40px;
     }
 	.subscribe__content{
 		min-width: 337px;
@@ -101,7 +107,7 @@
 	}
 	.subscribe__form{
 		margin-top: 8px;
-		min-width: 183px;
+		min-width: 154px;
 		max-width: 300px;
 	}
 	.subscribe__form__email, .subscribe__form__button{
