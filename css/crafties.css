@@ -32,12 +32,14 @@
         box-sizing: border-box;
         width: 240px;
         height: 220px;
+        margin: 10px;
         padding: 15px;
+        overflow: hidden;
     }
     
     .picture{
         width: 100%;
-        height: auto;
+        height: 100%;
         object-fit: cover;
         object-position: 43.898% 44.957%;
     }
