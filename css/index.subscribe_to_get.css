@@ -82,14 +82,14 @@
 @media (min-width: 768px) {
     .subscribe{
 		display:flex;
-		min-width:768px;
+		min-width:1176px;
         flex-direction: row;
 		justify-content: center;
 		align-items: center;
     }
 
 	.subscribe__clear-space{
-		min-width: 210px;
+		min-width: 30px;
 	}
 
 	.subscribe__form{
