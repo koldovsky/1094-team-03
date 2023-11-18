@@ -4,7 +4,7 @@
     margin-left:auto;
 	margin-right:auto;    
 }
-.crafties.div{
+div.crafties__pictures{
     width: 302px;
 }
 
@@ -25,13 +25,13 @@
 		max-width: 1200px;
     }
     .crafties__pictures{
-        display:flex;
+        display: flex;
         flex-direction: row;
 		justify-content: center;
 		align-items: center;
 		padding: 0px 40px;
     }
-    .crafties__pictures div{
+    div.crafties__pictures{
         flex: 1;
         box-sizing: border-box;
         width: 240px;
