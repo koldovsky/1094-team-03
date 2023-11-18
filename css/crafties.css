@@ -4,7 +4,7 @@
     margin-left:auto;
 	margin-right:auto;    
 }
-div.crafties__pictures{
+.crafties__pictures div{
     width: 302px;
 }
 
@@ -31,7 +31,7 @@ div.crafties__pictures{
 		align-items: center;
 		padding: 0px 40px;
     }
-    div.crafties__pictures{
+    .crafties__pictures div{
         flex: 1;
         box-sizing: border-box;
         width: 240px;
