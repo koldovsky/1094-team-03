@@ -27,11 +27,13 @@
 		align-items: center;
 		padding: 0px 40px;
     }
-    div.crafties{
+    .crafties div{
         width: 240px;
     }
     
     .picture{
+        width: 100%;
+        height: auto;
         object-fit: cover;
         object-position: 43.898% 44.957%;
     }

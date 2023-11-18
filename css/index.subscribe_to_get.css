@@ -38,7 +38,6 @@
 
 .subscribe__form{
 	margin-top:50px;
-	padding: 0px 15px;
 }
 
 .subscribe__form__email, .subscribe__form__button{
@@ -109,7 +108,7 @@
 		min-width: 154px;
 		max-width: 300px;
 	}
-	
+
 	.subscribe__form__email, .subscribe__form__button{
 		min-width: 154px;
 	}
