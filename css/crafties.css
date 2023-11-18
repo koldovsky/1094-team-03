@@ -27,9 +27,11 @@
 		align-items: center;
 		padding: 0px 40px;
     }
-    .crafties div{
+    .crafties__pictures div{
         display: block;
         width: 240px;
+        height: 220px;
+        padding: 15px;
     }
     
     .picture{
