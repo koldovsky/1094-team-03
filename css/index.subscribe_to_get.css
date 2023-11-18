@@ -82,20 +82,24 @@
 @media (min-width: 768px) {
 	.subscribe__clear-space{
 		display: block;
-		min-width: 155px;
+		min-width: 183px;
+		max-width: 300px;
 	}
 
     .subscribe{
 		display:flex;
-		min-width:770px;
         flex-direction: row;
 		justify-content: center;
 		align-items: center;
     }
-
+	.subscribe__content{
+		min-width: 337px;
+		max-width: 600px;
+	}
 	.subscribe__form{
 		margin-top: 8px;
-		min-width: 155px;
+		min-width: 183px;
+		max-width: 300px;
 	}
 	.subscribe__form__email, .subscribe__form__button{
 		min-width: 154px;
