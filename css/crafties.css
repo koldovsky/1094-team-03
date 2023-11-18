@@ -8,6 +8,14 @@
     margin-left:auto;
 	margin-right:auto;    
 }
+.crafties.div{
+    width: 302px;
+}
+
+.picture{
+    object-fit: cover;
+    object-position: 43.898% 44.957%;
+}
 
 @media (min-width: 768px) {
     .crafties{
@@ -18,5 +26,13 @@
 		justify-content: center;
 		align-items: center;
 		padding: 0px 40px;
+    }
+    .crafties.div{
+        width: 240px;
+    }
+    
+    .picture{
+        object-fit: cover;
+        object-position: 43.898% 44.957%;
     }
 }
