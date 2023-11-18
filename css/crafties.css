@@ -28,6 +28,7 @@
 		padding: 0px 40px;
     }
     .crafties div{
+        display: block;
         width: 240px;
     }
     
