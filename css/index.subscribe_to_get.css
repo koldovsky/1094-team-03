@@ -87,6 +87,7 @@
 	}
 
     .subscribe{
+		width: auto;
 		display:flex;
         flex-direction: row;
 		justify-content: center;
