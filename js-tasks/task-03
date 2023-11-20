@@ -2,7 +2,7 @@ https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/java
 
 
 function move (position, roll) {
-    newPosit = position + roll * 2;
-    return newPosit;
+    let newPosition = position + roll * 2;
+    return newPosition;
 }
 
