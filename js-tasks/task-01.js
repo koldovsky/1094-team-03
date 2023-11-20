@@ -30,3 +30,19 @@ function move (position, roll) {
     return newPosition;
 }
 
+
+https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
+//add your code, choose one better and delete other
+
+function greet (name, owner) {
+  return name === owner ? 'Hello boss' : 'Hello guest'; 
+}
+
+
+function greet (name, owner) {
+  if (name === owner) {
+    return 'Hello boss';
+  } 
+  return 'Hello guest';
+}
+
