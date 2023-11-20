@@ -9,3 +9,7 @@ function move (position, roll) {
     newPosit = position + roll * 2;
     return newPosit;
 }
+
+function move (position, roll) {
+  return position + roll + roll;
+}
