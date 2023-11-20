@@ -20,3 +20,13 @@ function makeNegative(num) {
     return num;
   }
 }
+
+
+https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
+
+
+function move (position, roll) {
+    let newPosition = position + roll * 2;
+    return newPosition;
+}
+
