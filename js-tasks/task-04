@@ -15,8 +15,14 @@ function greet (name, owner) {
 
 function greet (name, owner) {
   if (name === owner) {
+<<<<<<< HEAD
     return 'Hello boss';
   } else {
     return 'Hello guest'
+=======
+    return 'Hello boss'
+  } else {
+    return 'Hello guest';
+>>>>>>> 9ceae890344f9e1bdaac71a3aeacb3d6a22e6c3b
   }
 }
