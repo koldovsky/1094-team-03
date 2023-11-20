@@ -21,3 +21,8 @@ function move (position, roll) {
   return position + roll + roll;
 }
 >>>>>>> 9ceae890344f9e1bdaac71a3aeacb3d6a22e6c3b
+
+
+function move (position, roll) {
+  return position + (roll*2);
+}
