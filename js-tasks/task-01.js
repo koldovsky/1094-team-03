@@ -26,7 +26,7 @@ https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/java
 
 
 function move (position, roll) {
-    let newPosition = position + roll * 2;
+    const newPosition = position + roll * 2;
     return newPosition;
 }
 
@@ -51,4 +51,11 @@ function greet (name, owner) {
 
 function litres(time) {
   return Math.floor(time * 0.5);
+}
+
+
+//https://www.codewars.com/kata/555086d53eac039a2a000083/train/javascript
+
+function lovefunc(flower1, flower2){
+    return (flower1 + flower2) % 2 !== 0
 }
