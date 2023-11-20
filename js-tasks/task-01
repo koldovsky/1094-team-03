@@ -16,3 +16,8 @@ function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
+
+function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  const allGoals = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+  return allGoals;
+}

@@ -9,3 +9,10 @@ function move (position, roll) {
     newPosit = position + roll * 2;
     return newPosit;
 }
+
+function move (position, roll) {
+  if (roll < 1 && roll > 6) {
+    return "Try one more time";
+  } else {
+    return position + 2 * roll;
+  }

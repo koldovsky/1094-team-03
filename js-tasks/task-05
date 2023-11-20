@@ -8,3 +8,7 @@ function litres(time) {
   const roundedAmount = Math.floor(0.5 * time)
   return roundedAmount;
 }
+
+function litres(time) {
+  return ~~(time * 0.5)
+}
