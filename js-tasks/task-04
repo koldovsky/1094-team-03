@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
+//add your code, choose one better and delete other
+
+// Oleg Magdiak
+function greet (name, owner) {
+  return name === owner ? 'Hello boss' : 'Hello guest';
+}
