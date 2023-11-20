@@ -1,0 +1,10 @@
+//https://www.codewars.com/kata/grasshopper-messi-goals-function/train/javascript
+
+//add your code, choose one better and delete other
+
+// Oleg Magdiak
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return Number(laLigaGoals+copaDelReyGoals+championsLeagueGoals);  
+}
+
+//
