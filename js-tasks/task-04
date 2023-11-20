@@ -2,7 +2,7 @@ https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
 //add your code, choose one better and delete other
 
 function greet (name, owner) {
-  return name === owner ? 'Hello boss' : 'Hello guest';
+  return name === owner ? 'Hello boss' : 'Hello guest'; 
 }
 
 
@@ -11,18 +11,4 @@ function greet (name, owner) {
     return 'Hello boss';
   } 
   return 'Hello guest';
-}
-
-function greet (name, owner) {
-  if (name === owner) {
-<<<<<<< HEAD
-    return 'Hello boss';
-  } else {
-    return 'Hello guest'
-=======
-    return 'Hello boss'
-  } else {
-    return 'Hello guest';
->>>>>>> 9ceae890344f9e1bdaac71a3aeacb3d6a22e6c3b
-  }
 }
