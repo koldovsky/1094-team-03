@@ -1,12 +1,16 @@
 
+.notebooks {
+    background: var(--btn-background-color-var2);
+}
 .notebooks-carousel {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    background: var(--btn-background-color-var2);
     padding: 80px 24px 80px 24px;
     z-index: 1;
+    width: 100%;
+    margin: auto;
 }
 .notebooks-carousel__header-wrapper {
     align-self: center;
@@ -18,16 +22,45 @@
     font-size: 38px;
 }
 
+.notebooks-carousel__products {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    align-self: center;
+    height: 100vh;
+}
 .notebooks-carousel__products-list {
-    margin-top: 45px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%;
 }
 
 .notebooks-carousel__product {
-    padding-left: 24px;
-    padding-right: 24px;
-    width: 100%;
-    max-width: 760px;
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 15px;
+    flex: 0 0 auto;
 }
+
+.prev-button, .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.next-button {
+    right: 0;
+  }
 .notebooks-carousel__product-card {
     background-color: var(--color-for-main-text-on-dark-bg);
     display: flex;

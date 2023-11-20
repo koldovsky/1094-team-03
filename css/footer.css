@@ -1,0 +1,105 @@
+.footer {
+    background: var(--background-color-darken);
+    color: var(--color-for-main-text-on-dark-bg);
+    padding: 90px 24px 15px 24px;
+    text-align: center;
+}
+.footer .footer__content-item:not(:first-child) {
+    margin-top: 50px;
+}
+
+.footer .footer__content .footer__title {
+    font-size: 24px;
+    font-family: var(----title-font-family);
+}
+
+.footer .footer__content .footer__title-description {
+    margin-top: 10px;
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+.footer .footer__content-item .footer__navigation {
+    display: block;
+    margin: 20px 0;
+}
+
+.footer .footer__content-item .footer__navigation span {
+    position: relative;
+}
+
+.footer .footer__content-item .footer__navigation span:before {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid;
+    bottom: -4px;
+    width: 100%;
+    transform: scale(0);
+    transition: all 0.3s ease;
+}
+
+.footer .footer__content-item .footer__navigation span:hover::before {
+    transform: scale(1);
+}
+
+.footer .footer__content .footer__follow-title {
+    font-size: 26px;
+    font-family: var(----title-font-family);
+}
+
+.footer .footer__content .footer__social-item {
+    width: 34px;
+    height: 34px;
+    border: 1px solid var(--btn-text-color);
+    border-radius: 50%;
+    padding: 3px;
+    margin: 5px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.footer__social-item:hover {
+    background: var(--btn-background-color);
+}
+
+.footer .footer__content .footer__social-item svg {
+    fill: var(--btn-text-color);
+    transition: all 0.3s ease;
+}
+
+.footer .footer__content .footer__social-item:hover svg {
+    fill: var(--btn-text-color-var2);
+}
+
+.footer  .footer__copyright {
+    margin-top: 20px;
+    font-size: 11px;
+}
+
+@media(min-width: 768px) {
+
+.footer .footer__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.footer .footer__content-item:not(:first-child) {
+    margin-top: 0;
+}
+
+.footer .footer__content-item .footer__navigation {
+    margin: 0 0 20px 0;
+}
+
+.footer .footer__content-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer__copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+}

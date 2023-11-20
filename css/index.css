@@ -1,5 +1,6 @@
 @import url(global.css);
 @import url(header-nav.css);
+@import url(footer.css);
 @import url(index-product-intro.css);
 @import url(index-products.css);
 @import url(index.gift_packs.css);
@@ -10,10 +11,13 @@
 @import url(index.main__customorders.css);
 @import url(index.subscribe_to_get.css);
 @import url(what-handmade-means.css);
-@import url(crafties);
+@import url(crafties.css);
+@import url(index.collections.css);
 /* controls for buttons */
 @import url(controls.css);
 /* notebooks page */
 @import url(notebooks-carousel.css);
 @import url(index.collections.css);
+@import url(index.main__blog.css);
+@import url(notebooks-buy-now.css);
 

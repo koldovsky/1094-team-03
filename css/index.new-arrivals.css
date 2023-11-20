@@ -1,56 +1,67 @@
 .new-arrivals {
-    background: url("../img/block-background-black.jpg") 50% 50% / cover no-repeat, rgb(33, 32, 32);
+    background: url("../img/block-background-black.jpg") 50% 50% / cover;
     padding-top: 80px;
     padding-bottom: 90px;
     position: relative;
 }
+
 .new-arrivals::before {
     content: '';
     width: 100%;
     height: 100%;
-    background: rgba(33, 32, 32, 0.56);
+    background: var(--background-color-darken);
+    opacity: 0.7;
     position: absolute;
     top: 0;
 }
+
 .new-arrivals h2 {
     color: var(--color-for-main-text-on-dark-bg);
     text-align: center;
     font-size: 38px;
     font-weight: 500;
-
+    position: relative;
 }
+
 .new-arrivals .carousel__container {
     margin-top: 45px;
     padding: 0 10px;
 }
+
 .new-arrivals__carousel {
     position: relative;
 }
+
 .new-arrivals .carousel__container ul {
     padding: 0;
 }
+
 .new-arrivals .carousel__container li {
     padding: 27px;
-    background: #fff;
+    background: var(--background-color-light);
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
+
 .new-arrivals .carousel__container .carousel__title {
     color: var(--color-for-main-text-on-light-bg);
     font-size: 17px;
 }
+
 .new-arrivals .carousel__container .carousel__title:hover {
     text-decoration: underline;
 }
+
 .new-arrivals .carousel__container .carousel__price {
     font-size: 17px;
     color: var(--color-for-price);
     font-weight: 700;
     margin-top: 10px;
 }
+
 .new-arrivals .carousel__container .carousel__buy {
     margin-top: 24px;
     margin-bottom: 0;
@@ -63,14 +74,16 @@
     transition: .2s;
     cursor: pointer;
 }
+
 .new-arrivals .carousel__container .carousel__buy:hover {
     background: var(--btn-text-color-var2);
 }
+
 .new-arrivals .carousel__button {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    background: #000;
+    background: var(--btn-carousel-background-color);
     opacity: .85;
     transition: opacity .2s ease-out;
     display: inline-block;
@@ -80,17 +93,21 @@
     cursor: pointer;
     border: none;
 }
+
 .new-arrivals .carousel__button.left {
     left: 28px;
     transform: rotate(135deg);
 }
+
 .new-arrivals .carousel__button.right {
     right: 28px;
     transform: rotate(-45deg);
 }
+
 .new-arrivals .carousel__button:hover {
     opacity: 1;
 }
+
 .new-arrivals .carousel__button .arrow {
     border: solid var(--btn-text-color-var1);
     border-width: 0 1px 1px 0;
@@ -103,44 +120,53 @@
     .new-arrivals h2 {
         font-size: 44px;
     }
+
     .new-arrivals .carousel__button {
         width: 32px;
         height: 32px;
     }
+
     .new-arrivals .carousel__button .arrow {
         border-width: 0 3px 3px 0;
         padding: 6px;
         margin: 7px;
         opacity: 0.9;
     }
+
     .new-arrivals .carousel__container ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 30px;
     }
-
 }
+
 @media (min-width:992px) {
     .new-arrivals h2 {
         font-size: 50px;
     }
+
     .new-arrivals .carousel__container ul {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
     .new-arrivals .carousel__container li img {
         min-height: 215px;
     }
 }
+
 @media (min-width:1200px) {
     .new-arrivals .carousel__button.left {
         left: -40px;
     }
+
     .new-arrivals .carousel__button.right {
         right: -40px;
     }
+
     .new-arrivals .carousel__button {
         background: transparent;
     }
+
     .new-arrivals .carousel__container li img {
         height: 270px;
     }
