@@ -2,27 +2,7 @@
 
 //add your code, choose one better and delete other
 
-function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
-  return Number(laLigaGoals+copaDelReyGoals+championsLeagueGoals);  
-}
-
-//
-
-function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
-  const total = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
-  return total;
-}
 
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
-}
-
-function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
-<<<<<<< HEAD
-  const allGoals = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
-  return allGoals;
-=======
-  goalsSum = laLigaGoals + copaDelReyGoals + championsLeagueGoals
-  return goalsSum
->>>>>>> 9ceae890344f9e1bdaac71a3aeacb3d6a22e6c3b
 }
