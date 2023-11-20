@@ -20,3 +20,4 @@ function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
 function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   goalsSum = laLigaGoals + copaDelReyGoals + championsLeagueGoals
   return goalsSum
+}
