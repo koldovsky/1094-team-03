@@ -2,21 +2,6 @@
 
 //add your code, choose one better and delete other
 
-function makeNegative(num) {
-  return num<0 ? num : -num; 
-}
-
-
-function makeNegative(num) {
-  if (num < 0) {
-    return num;
-  } else if (num === 0) {
-    return 0;
-  } else {
-    return -num;
-  }
-}
-
 
 function makeNegative(num) {
     if (num > 0) { 
@@ -26,19 +11,3 @@ function makeNegative(num) {
   }
 }
 
-function makeNegative(num) {
-  if (num > 0) {
-<<<<<<< HEAD
-    return num * -1;
-  } else {
-    return num;
-  }
-}
-=======
-    return -num;
-  }
-  else {
-    return num
-  }
-}
->>>>>>> 9ceae890344f9e1bdaac71a3aeacb3d6a22e6c3b
