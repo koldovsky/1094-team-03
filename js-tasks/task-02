@@ -2,7 +2,6 @@
 
 //add your code, choose one better and delete other
 
-// Oleg Magdiak
 function makeNegative(num) {
   return num<0 ? num : -num; 
 }
