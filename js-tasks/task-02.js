@@ -65,17 +65,4 @@ var max = function(list) {
 
 // variant 2
 ...
-  
-//www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
 
-  // variant 1
-var min = function (list) {
-  return Math.min(...list);
-};
-
-var max = function (list) {
-  return Math.max(...list);
-};
-
-// variant 2
-...
