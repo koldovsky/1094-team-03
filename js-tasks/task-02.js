@@ -5,6 +5,9 @@ function stringToArray(string) {
 }
 
 //variant 2
+function stringToArray(string) {
+  return string.split(" ");
+}
 
 
 
@@ -19,6 +22,9 @@ function DNAtoRNA(dna) {
 }
 
 //variant 2
+function DNAtoRNA(dna) {
+  return dna.replace(/T/g, "U");
+ }
 
 //https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
 //variant 1
