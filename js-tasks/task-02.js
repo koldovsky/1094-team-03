@@ -1,5 +1,4 @@
 //https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascript
-
 //variant 1
 function stringToArray(string) {
   return (splitArray = string.split(" "));
@@ -9,12 +8,10 @@ function stringToArray(string) {
 function stringToArray(string) {
   return string.split(" ");
 }
-...
 
 
 
 //https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
-
 //variant 1
 function DNAtoRNA(dna) {
   dna = dna.split("");
@@ -28,10 +25,8 @@ function DNAtoRNA(dna) {
 function DNAtoRNA(dna) {
   return dna.replace(/T/g, "U");
  }
-...
 
 //https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
-
 //variant 1
 function min(arr, toReturn){
     if(toReturn==='value'){
@@ -51,10 +46,8 @@ function min(arr, toReturn) {
   }
 }
 
-...
 
 //https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
-
 // variant 1
 var min = function(list) {
   return Math.min(...list);
@@ -64,5 +57,15 @@ var max = function(list) {
 }
 
 // variant 2
-...
 
+// https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
+// variant 1
+function warnTheSheep(queue) {
+  const wolfIndex = queue.indexOf("wolf");
+  if (wolfIndex === queue.length - 1) {
+    return "Pls go away and stop eating my sheep";
+  } else {
+    const sheepNumber = queue.length - 1 - wolfIndex;
+    return "Oi! Sheep number " + sheepNumber + "! You are about to be eaten by a wolf!";
+  }
+}
