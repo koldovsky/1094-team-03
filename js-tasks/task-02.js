@@ -38,3 +38,22 @@ function min(arr, toReturn){
 }
 
 //variant 2
+function min(arr, toReturn) {
+  if (toReturn === "value") {
+    return Math.min(...arr);
+  } else {
+    return arr.indexOf(Math.min(...arr));
+  }
+}
+
+
+//https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
+// variant 1
+var min = function(list) {
+  return Math.min(...list);
+}
+var max = function(list) {
+  return Math.max(...list);
+}
+
+// variant 2
