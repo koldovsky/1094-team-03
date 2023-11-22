@@ -26,9 +26,22 @@ function DNAtoRNA(dna) {
   return dna.replace(/T/g, "U");
  }
 
+ //variant 3
+function DNAtoRNA(dna) {
+  let rna = "";
+  for (let i = 0; i < dna.length; i++) {
+    if (dna[i] === "T") {
+      rna += "U";
+    } else {
+      rna += dna[i];
+    }
+  }
+  return rna;
+}
+
 //https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
 //variant 1
-function min(arr, toReturn){
+function min(arr, toReturn) {
     if(toReturn==='value'){
       return Math.min(...arr);
     } else
@@ -44,6 +57,12 @@ function min(arr, toReturn) {
   } else {
     return arr.indexOf(Math.min(...arr));
   }
+}
+
+//variant 3
+function min(arr, toReturn) {
+  const minValue = Math.min(... arr);
+  return toReturn === 'index' ? arr.indexOf(minValue) : minValue;
 }
 
 
@@ -77,6 +96,15 @@ var max = function(list){
     return max;
 }
 
+// variant 3
+const min = function (list) {
+  return Math.min(...list);
+};
+
+const max = function (list) {
+  return Math.max(...list);
+};
+
 // https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
 // variant 1
 function warnTheSheep(queue) {
@@ -89,10 +117,33 @@ function warnTheSheep(queue) {
   }
 }
 
+// variant 2
+function warnTheSheep(queue) {
+  const position = queue.reverse().indexOf("wolf");
+  return position === 0 
+    ? "Pls go away and stop eating my sheep"
+  	: `Oi! Sheep number ${position}! You are about to be eaten by a wolf!`;
+}
+
 // https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript
 // variant 1
 function maps(x) {
   return x.map(function(i) {
     return i * 2;
   });
+}
+
+//variant 2
+function maps(x) {
+  return x.map(num => num * 2);
+}
+
+//https://www.codewars.com/kata/find-the-first-non-consecutive-number/train/javascript
+function firstNonConsecutive(arr) {
+  for (let i = 1; i < arr.length; i++) {
+      if (arr[i] - arr[i - 1] !== 1) {
+          return arr[i];
+      }
+  }
+  return null;
 }
