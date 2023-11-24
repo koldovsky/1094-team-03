@@ -7,30 +7,11 @@ class SmallestIntegerFinder {
 
 
 https://www.codewars.com/kata/geometry-basics-circle-circumference-in-2d/train/javascript
-function circleCircumference(circle) {
-  const circumference = 2 * Math.PI * circle.radius;
-  return parseFloat(circumference.toFixed(6));
-}
-
 function circleCircumference(Circle) {
   return 2 * Math.PI * Circle.radius.toFixed(6);
 }
 
 //https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript
-function giveMeFive(obj) {
-  var resultArray = [];
-  for (var key in obj) {
-    if (key.length === 5) {
-      resultArray.push(key);
-    }
-    var value = obj[key];
-    if (value && value.length === 5) {
-      resultArray.push(value);
-    }
-  }
-  return resultArray;
-}
-
 function giveMeFive(obj){
   const fiveChar = [];
   for (let key in obj) {
