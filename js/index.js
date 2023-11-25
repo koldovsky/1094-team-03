@@ -1,3 +1,3 @@
 document.addEventListener('partialsLoaded', () => {
-    import('./gift-packs.js');
+    import('./index.gift-packs.js');
 });
