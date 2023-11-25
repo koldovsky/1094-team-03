@@ -20,7 +20,7 @@
 
 .gift-packs-carousel__container {
     display: grid;
-    grid-template-columns: 36px 1fr 36px;
+    grid-template-columns: 24px 1fr 24px;
     align-items: center;
 }
 
@@ -39,6 +39,24 @@
     font-size: 15px;
     line-height: 24px;
     text-align: center;
+}
+
+/* btn next & prev */
+
+.gift-packs-carousel__btn-next,
+.gift-packs-carousel__btn-prev {
+    height: 24px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.gift-packs-carousel__btn-prev {
+    transform: scaleX(-1) translateX(-20px);
+}
+
+.gift-packs-carousel__btn-next {
+    transform: translateX(-20px);
 }
 
 @media (min-width: 375px) {
@@ -68,6 +86,15 @@
         max-width: 322px;
 
     }
+
+    .gift-packs-carousel__container {
+        grid-template-columns: 36px 1fr 36px;
+    }
+
+    .gift-packs-carousel__btn-next,
+    .gift-packs-carousel__btn-prev {
+        height: 36px;
+    }
 }
 
 @media (min-width:1024px) {
@@ -75,10 +102,6 @@
         font-size: 50px;
         letter-spacing: -1.5px;
         line-height: 55px;
-    }
-
-    .gift-packs__cards {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     .gift-pack__card {
@@ -94,18 +117,4 @@
     .gift-pack__card-img {
         max-width: 263px;
     }
-}
-
-/* btn next & prev */
-
-.gift-packs-carousel__btn-next,
-.gift-packs-carousel__btn-prev {
-    height: 48px;
-    cursor: pointer;
-    border: none;
-    background: none;
-}
-
-.gift-packs-carousel__btn-prev {
-    transform: rotate(180deg);
 }
