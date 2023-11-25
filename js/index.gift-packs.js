@@ -3,24 +3,24 @@ const slides = [
             <img class="gift-pack__card-img" src="img/gift-packs/big-floral.webp" alt="The Big Floral Pack">
             <figcaption class="gift-pack__card-discription">The Big Floral Pack</figcaption>
         </figure>`,
-        `<figure class="gift-pack__card">
+    `<figure class="gift-pack__card">
             <img class="gift-pack__card-img" src="img/gift-packs/autumn-landscape.webp"
                 alt="The Autumn Landscape Pack">
             <figcaption class="gift-pack__card-discription">The Autumn Landscape Pack</figcaption>
         </figure>`,
-        `<figure class="gift-pack__card">
+    `<figure class="gift-pack__card">
             <img class="gift-pack__card-img" src="img/gift-packs/urban-view.webp" alt="The Urban View Pack">
             <figcaption class="gift-pack__card-discription">The Urban View Pack</figcaption>
         </figure>`,
-        `<figure class="gift-pack__card">
+    `<figure class="gift-pack__card">
             <img class="gift-pack__card-img" src="img/gift-packs/big-vintage.webp" alt="The Big Vintage Pack">
             <figcaption class="gift-pack__card-discription">The Big Vintage Pack</figcaption>
         </figure>`,
-        `<figure class="gift-pack__card">
+    `<figure class="gift-pack__card">
             <img class="gift-pack__card-img" src="img/gift-packs/summer-village.webp" alt="The Summer Village Pack">
             <figcaption class="gift-pack__card-discription">The Summer Village Pack</figcaption>
         </figure>`,
-        `<figure class="gift-pack__card">
+    `<figure class="gift-pack__card">
             <img class="gift-pack__card-img" src="img/gift-packs/exotic-leather.webp" alt="Exotic Leather Pack">
             <figcaption class="gift-pack__card-discription">Exotic Leather Pack</figcaption>
         </figure>`
