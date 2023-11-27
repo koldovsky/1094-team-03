@@ -34,7 +34,7 @@ function renderSlide() {
 }
 
 function nextSlide() {
-    currentSlideIndxWhyUS = currentSlideIndx + 1 >= slides.length ? 0 : ccurrentSlideIndx + 1;
+    currentSlideIndxWhyUS = currentSlideIndx + 1 >= slides.length ? 0 : currentSlideIndx + 1;
     renderSlide();
 }
 
