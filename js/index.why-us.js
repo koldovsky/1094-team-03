@@ -26,7 +26,7 @@ let currentSlideIndx = 0;
 
 function renderSlide() {
     const slideContainer = document.querySelector('.whyus__container__inner');
-    slideContainer.innerHTML = slides[currentSlideIndex];
+    slideContainer.innerHTML = slides[currentSlideIndx];
     if (window.matchMedia('(min-width:768px)').matches) {
         const secondSlideIndex = currentSlideIndx + 1 >= slides.length ? 0 : currentSlideIndx + 1;
         slideContainer.innerHTML += slides[secondSlideIndex];
