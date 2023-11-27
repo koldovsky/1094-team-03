@@ -34,12 +34,12 @@ function renderSlide() {
 }
 
 function nextSlide() {
-    currentSlideIndxWhyUS = currentSlideIndx + 1 >= slides.length ? 0 : currentSlideIndx + 1;
+    currentSlideIndx = currentSlideIndx + 1 >= slides.length ? 0 : currentSlideIndx + 1;
     renderSlide();
 }
 
 function prevSlide() {
-    currentSlideIndxWhyUS = currentSlideIndx - 1 < 0 ? slides.length - 1 : currentSlideIndx - 1;
+    currentSlideIndx = currentSlideIndx - 1 < 0 ? slides.length - 1 : currentSlideIndx - 1;
     renderSlide();
 }
 
