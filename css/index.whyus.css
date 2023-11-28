@@ -2,7 +2,10 @@
     background-image: url(../img/why-us/black-cloth.jpeg);
     padding: 80px 24px 90px;
 }
-
+.whyus__container {
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+}
 
 
 .whyus__title {
@@ -17,13 +20,12 @@
 
 .whyus__container__inner {
     margin-top: 40px;
-    height: 357px;
 }
 
 .whyus img {
     width: 70px;
     margin: auto;
-    margin-bottom: 286px;
+    margin-bottom: 20px;
 }
 
 .whyus__proof {
