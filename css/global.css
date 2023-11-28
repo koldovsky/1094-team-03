@@ -43,6 +43,10 @@ img {
     width: 100%;
 }
 
+svg {
+    vertical-align: middle;
+}
+
 body {
     min-width: 310px;
     margin: auto;

@@ -45,6 +45,7 @@
 .footer .footer__content .footer__follow-title {
     font-size: 26px;
     font-family: var(----title-font-family);
+    margin-bottom: 16px;
 }
 
 .footer .footer__content .footer__social-item {
