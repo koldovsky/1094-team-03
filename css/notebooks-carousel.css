@@ -27,24 +27,24 @@
     overflow: hidden;
     width: 100%;
     align-self: center;
-    height: 100vh;
+    justify-content: space-between;
 }
 .notebooks-carousel__products-list {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
     transition: transform 0.5s ease-in-out;
-    width: 300%;
 }
 
 .notebooks-carousel__product {
-    flex: 0 0 auto;
     box-sizing: border-box;
     text-align: center;
-    height: 100%;
+    width: calc(100% / 3 - 15px);
     object-fit: cover;
     margin-right: 15px;
-    flex: 0 0 auto;
+    padding: 15px;
 }
 
 .prev-button, .next-button {
@@ -68,10 +68,14 @@
     justify-content: center;
     align-items: center;
     padding: 31px;
+    height: 100%;
+    
 }
 .notebooks-carousel__image {
     width: 100%;
     height: 100%;
+    max-width: 232px;
+    object-fit: cover;
 }
 
 .notebooks-carousel__image-wrapper {
@@ -79,6 +83,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
 
 }
 .notebooks-carousel__product-title {
