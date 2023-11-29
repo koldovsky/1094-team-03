@@ -43,14 +43,20 @@ img {
     width: 100%;
 }
 
+svg {
+    vertical-align: middle;
+}
+
 body {
     min-width: 310px;
     margin: auto;
     font-family: var(--paragraphs-font-family);
+    line-height: inherit;
 }
 
 .container {
     max-width: 1200px;
+    padding: 0;
 }
 
 a {

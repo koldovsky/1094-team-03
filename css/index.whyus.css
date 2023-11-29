@@ -2,7 +2,11 @@
     background-image: url(../img/why-us/black-cloth.jpeg);
     padding: 80px 24px 90px;
 }
-
+.whyus__container {
+    display: grid;
+    grid-template-columns: 40px 1fr 40px;
+    min-height: 360px;
+}
 
 
 .whyus__title {
@@ -14,15 +18,21 @@
     margin-bottom: 20px;
 }
 
-.whyus_inner {
-    margin-top: 40px;
-    height: 357px;
-}
 
+.whyus__container__inner {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.whyus__container__inner div {
+    padding: 0 15px 0;
+}
 .whyus img {
     width: 70px;
     margin: auto;
-    margin-bottom: 286px;
+    margin-bottom: 20px;
 }
 
 .whyus__proof {
@@ -44,6 +54,33 @@
     margin-bottom: 50px;
     margin-top: 20px;
 }
+.whyus__btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    opacity: .85;
+    transition: opacity .2s ease-out;
+    top: 50%;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+}
+
+
+.whyus__carousel__btn-prev {
+    left: 28px;
+    transform: rotate(180deg);
+}
+.whyus__carousel__btn-next {
+}
+
+.whyus__carousel__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
 
 @media (min-width:768px) {
     .whyus__title {
@@ -58,4 +95,11 @@
         font-size: 34px;
     }
 
+}
+
+@media (min-width:1024px) {
+  .whyus {
+    padding-left: 350px;
+    padding-right: 350px;
+  }
 }
