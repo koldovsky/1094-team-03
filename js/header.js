@@ -1,13 +1,18 @@
-document.getElementById('header__menu--dropdown').addEventListener('click', showSubMenu);
-document.getElementById('header__menu--dropdown.active').addEventListener('click', hideSubMenu);
+// let dropDown = document.getElementById('header__menu--dropdown');
 
-function showSubMenu() {
-    document.querySelector('.header__submenu__item').classList.add('active');
-    console.log('showing Submenu');
-    
-}
-function hideSubMenu() {
-    document.querySelector('.header__submenu__item').classList.remove('active');
-    console.log('hiding Submenu');
-    
-}
+// dropDown.addEventListener('click', function() {
+//     document.querySelector('.header__submenu__item').classList.toggle('active');
+//     console.log('showing Submenu');
+// });
+
+const hoverElement = document.getElementById('hoverArea');
+const modalPopup = document.getElementById('modal');
+
+hoverElement.addEventListener('mouseover', function() {
+    modalPopup.style.display = 'flex';
+})
+
+hoverElement.addEventListener('mouseout', function() {
+    modalPopup.style.display = 'none';
+})
+
