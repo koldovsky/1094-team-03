@@ -52,6 +52,12 @@
     font-size: 15px;
     font-weight: 400;
 }
+.header__submenu__item {
+    display: none;
+}
+.header__submenu__item.active {
+    display: list-item;
+}
 @media (min-width: 992px) 
     {.header {
         display: flex;
