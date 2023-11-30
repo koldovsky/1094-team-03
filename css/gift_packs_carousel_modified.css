@@ -99,13 +99,5 @@
         line-height: 55px;
     }
 
-    .gift-pack__card-img {
-        max-width: 206px;
-    }
-}
-
-@media (min-width:1440px) {
-    .gift-pack__card-img {
-        max-width: 263px;
-    }
+    
 }

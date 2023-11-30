@@ -32,6 +32,7 @@
     --color-for-secondary-text-on-light-bg: #595452;
     --color-for-price: #e04141;
     --color-for-input-email: #ebebeb;
+    --color-for-darker-input-email: #66666633;
     /* background colors */
     --background-color-for-intro: rgb(243, 239, 239);
     --background-color-darken: #212020;

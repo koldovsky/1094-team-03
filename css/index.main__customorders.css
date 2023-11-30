@@ -18,18 +18,22 @@
 .branding__grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 70px 0;
 }
 
 .branding__title {
 	font-family: Saira, sans-serif;
-    font-size: 50px;
+    font-size: 44px;
 	color:#212020;
+	font-weight: normal;
 }
 
 .branding__text {
 	font-family: Merriweather, serif;
     font-size: 15px;
 	color:#595452;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .branding__button {
@@ -41,4 +45,15 @@
 	font-family: Merriweather, serif;
 	font-size: 14px;
 	color:#212020;
+	height: 40px;
+	width: 140px;
+	border-color: #e04141;
+	background-color: rgba(28,28,28,0);
+	transition-duration: 0.4s;
+}
+
+.branding__button:hover {
+	background-color: #e04141;
+	color: white;
+	cursor: pointer;
 }
