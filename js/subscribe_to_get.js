@@ -19,7 +19,7 @@ function validateEmail(email) {
 
   function applyFocusStyles() {
     const element = document.querySelector('.subscribe__form__email');
-    element.style.outlinecolor = 'var(--outline-color)';
+    element.style.outlinecolor = 'red';
   }
   
   function applyBlurStyles() {
