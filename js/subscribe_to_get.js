@@ -1,28 +1,38 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const emailInput = document.getElementById('emailInput');
-    emailInput.addEventListener('input', function () {
+document.addEventListener("DOMContentLoaded", function () {
+    const emailInput = document.getElementById("emailInput");
+  
+    emailInput.addEventListener("input", function () {
       validateEmail(emailInput.value);
     });
+  
+    emailInput.addEventListener("blur", function () {
+      applyBlurStyles();
+    });
   });
-
-function validateEmail(email) {
+  
+  function validateEmail(email) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const emailValidation = emailRegex.test(email)
-    if (emailValidation==false){
-        applyFocusStyles();
+    const emailValidation = emailRegex.test(email);
+  
+    if (!emailValidation) {
+      applyFocusStyles(true);
+    } else {
+      applyFocusStyles(false);
     }
   }
-
-  emailInput.addEventListener('blur', function () {
-    applyBlurStyles();
-  });
-
-  function applyFocusStyles() {
-    const element = document.querySelector('.subscribe__form__email');
-    element.style.outlinecolor = 'red';
+  
+  function applyFocusStyles(hasError) {
+    const element = document.querySelector(".subscribe__form__email");
+  
+    if (hasError) {
+      element.style.outlineColor = "red";
+    } else {
+      element.style.outlineColor = "";
+    }
   }
   
   function applyBlurStyles() {
-    const element = document.querySelector('.subscribe__form__email');
-    element.style.outlinecolor = ''; 
+    const element = document.querySelector(".subscribe__form__email");
+    element.style.outlineColor = "";
   }
+  
