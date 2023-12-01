@@ -9,7 +9,20 @@ function validateEmail(email) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const emailValidation = emailRegex.test(email)
     if (emailValidation==false){
-        const element=document.querySelector('.subscribe__form__email');
-        element.style.backgroundColor = 'var(--color-for-main-text-on-dark-bg)';
+        applyFocusStyles();
     }
+  }
+
+  emailInput.addEventListener('blur', function () {
+    applyBlurStyles();
+  });
+
+  function applyFocusStyles() {
+    const element = document.querySelector('.subscribe__form__email');
+    element.style.outlinecolor = 'var(--outline-color)';
+  }
+  
+  function applyBlurStyles() {
+    const element = document.querySelector('.subscribe__form__email');
+    element.style.outlinecolor = ''; 
   }
