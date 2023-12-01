@@ -69,7 +69,6 @@
     align-items: center;
     border: 2px solid black;
     box-shadow: #2e1e1e;
-    transition: 1s ease-out;
 }
 
 /* .header__submenu__item {
