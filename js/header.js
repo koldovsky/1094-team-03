@@ -16,3 +16,10 @@ hoverElement.addEventListener('mouseout', function() {
     modalPopup.style.display = 'none';
 })
 
+//burger menu
+const burgerIcon = document.querySelector('.header__burger-menu');
+
+burgerIcon.addEventListener('click', function() {
+    document.querySelector('.header__nav').classList.toggle('active');
+    document.querySelector('body').classList.toggle('active');
+})
