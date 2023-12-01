@@ -104,6 +104,7 @@ body.active {
     flex-wrap: wrap;
     margin-bottom: 15px;
     text-align: center;
+    justify-content: center;
 }
 
 

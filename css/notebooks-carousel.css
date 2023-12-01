@@ -38,16 +38,21 @@
     overflow: hidden;
     transition: transform 0.5s ease-in-out;
 }
-
 .notebooks-carousel__product {
     display: none;
-    box-sizing: border-box;
-    text-align: center;
-    width: calc(100% / 3 - 15px);
-    object-fit: cover;
-    margin-right: 15px;
-    padding: 15px;
-    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+@media (min-width: 990px) {
+    .notebooks-carousel__product {
+        display: none;
+        box-sizing: border-box;
+        text-align: center;
+        width: calc(100% / 3 - 15px);
+        object-fit: cover;
+        margin-right: 15px;
+        padding: 15px;
+        transition: transform 0.5s ease-in-out;
+    }
 }
 .notebooks-carousel__product.active {
     display: inline-block;
