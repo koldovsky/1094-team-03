@@ -15,7 +15,7 @@ if(window.innerWidth < 767) {
 } else {
     totalItemsInViewPort = 3;
 }
-console.log(`items displayed ${totalItemsInViewPort}`);
+// console.log(`items displayed ${totalItemsInViewPort}`);
 
 document.getElementById('next-button').addEventListener('click', showNext);
 document.getElementById('prev-button').addEventListener('click', showPrev);
