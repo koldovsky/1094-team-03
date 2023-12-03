@@ -2,7 +2,9 @@
 .notebooks {
     background: var(--btn-background-color-var2);
 }
-.notebooks-carousel {
+@media (max-width: 989px) {
+
+ .notebooks-carousel {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,6 +13,7 @@
     z-index: 1;
     width: 100%;
     margin: auto;
+    }
 }
 .notebooks-carousel__header-wrapper {
     align-self: center;
