@@ -32,7 +32,7 @@ function renderSlide() {
   if (window.matchMedia('(min-width:768px)').matches) {
     const secondSlideIndex = currentSlideIndx + 1 >= slides.length ? 0 : currentSlideIndx + 1;
     slideContainer.innerHTML += slides[secondSlideIndex];
-    if (window.matchMedia('(min-width:992px)').matches) {
+    if (window.matchMedia('(min-width:991px)').matches) {
       const thirdSlideIndex = secondSlideIndex + 1 >= slides.length ? 0 : secondSlideIndex + 1;
       slideContainer.innerHTML += slides[thirdSlideIndex];
     }
