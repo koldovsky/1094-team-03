@@ -6,7 +6,7 @@ const products = document.querySelectorAll('.notebooks-carousel__product');
 console.log(`all products list ${products}`);
 const totalProducts = products.length;
 // console.log(`total amount of products ${totalProducts}`);
-const totalItemsInViewPort = 0;
+let totalItemsInViewPort = 0;
 if(window.innerWidth < 767) {
     totalItemsInViewPort = 1;
 
