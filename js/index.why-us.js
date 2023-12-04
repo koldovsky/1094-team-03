@@ -39,6 +39,23 @@ function renderSlide() {
   }
 }
 
+function slideTo(indx) {
+  currentSlideIndx = indx;
+  renderSlide();
+}
+
+function renderButtons() {
+  const buttonContainer = document.querySelector('.whyus__carousel__container__nav');
+   buttonContainer.innerHTML = '';
+  for (let i = 0; i < slides.length; i++) {
+    buttonContainer.innerHTML += '<button class="whyus__nav__btn"><img src="img/why-us/radio-btn-for-whyus.png"></button>';
+  }
+  const buttons = document.querySelectorAll('.whyus__nav__btn')
+  for (let i = 0; i < slides.length; i++) {
+    buttons[i].addEventListener('click', () => slideTo(i));
+  }
+}
+
 function nextSlide() {
   currentSlideIndx = currentSlideIndx + 1 >= slides.length ? 0 : currentSlideIndx + 1;
   renderSlide();
@@ -50,6 +67,7 @@ function prevSlide() {
 }
 
 renderSlide();
+renderButtons();
 
 const nextBtn = document.querySelector('.whyus__carousel__btn-next');
 nextBtn.addEventListener('click', nextSlide);

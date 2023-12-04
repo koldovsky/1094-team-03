@@ -74,14 +74,17 @@
 .whyus__carousel__btn-next {
 }
 
-.whyus__carousel__nav {
+
+  .whyus__carousel__container__nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10px;
+    
+  }
+  .whyus__carousel__container__nav img {
+    width: 10px;
   }
   
-
 @media (min-width:768px) {
     .whyus__title {
         font-size: 50px;
