@@ -1,18 +1,19 @@
 <section class="custom-gift-packs">
-    <div class="custom-gift-packs__img-container" >
-        <img class="custom-gift-packs__img" src="../../img/gift-packs/custom-gift-packs.webp" alt="The subject photo of tools for making leather items">
+    <div class="custom-gift-packs__img-container">
+        <img class="custom-gift-packs__img" src="../../img/gift-packs/custom-gift-packs.webp"
+            alt="The subject photo of tools for making leather items">
     </div>
     <div class="custom-gift-packs__form-container">
         <h2 class="custom-gift-packs__form-title">Custom Gift Pack</h2>
         <p class="custom-gift-packs__form-text">You can order a custom gift pack, choosing any of our products. Complete
             the form below and we will contact you ASAP!</p>
         <form class="custom-gift-packs__form-items">
-            <input type="name" name="Name" class="custom-gift-packs__form__input" placeholder="Name*" required>
-            <input type="phone" name="Phone number" class="custom-gift-packs__form__input" placeholder="Phone number*" required>
+            <input type="text" name="Name" class="custom-gift-packs__form__input" placeholder="Name*" required>
+            <input type="tel" name="Phone number" class="custom-gift-packs__form__input" placeholder="Phone number*" pattern="[0-9]*" required>
             <input type="email" name="Email" class="custom-gift-packs__form__input" placeholder="E-mail*" required>
-            <textarea type="textarea" name="textarea" class="custom-gift-packs__form__textarea"
-            placeholder="Gift pack preferences"></textarea>
-            <button type="submit" class=" btn custom-gift-packs__form__button">Send</button>
+            <textarea name="textarea" class="custom-gift-packs__form__textarea"
+                placeholder="Gift pack preferences"></textarea>
+            <button type="submit" class="btn custom-gift-packs__form__button">Send</button>
         </form>
     </div>
 </section>
