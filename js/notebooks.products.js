@@ -5,9 +5,17 @@ console.log(`current index = ${currentIndex}`);
 const products = document.querySelectorAll('.notebooks-carousel__product');
 console.log(`all products list ${products}`);
 const totalProducts = products.length;
-console.log(`total amount of products ${totalProducts}`);
-const totalItemsInViewPort = 3;
-console.log(`items displayed ${totalItemsInViewPort}`);
+// console.log(`total amount of products ${totalProducts}`);
+let totalItemsInViewPort = 0;
+if(window.innerWidth < 767) {
+    totalItemsInViewPort = 1;
+
+} else if(window.innerWidth < 991) {
+    totalItemsInViewPort = 2;
+} else {
+    totalItemsInViewPort = 3;
+}
+// console.log(`items displayed ${totalItemsInViewPort}`);
 
 document.getElementById('next-button').addEventListener('click', showNext);
 document.getElementById('prev-button').addEventListener('click', showPrev);

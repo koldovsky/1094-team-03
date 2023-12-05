@@ -2,7 +2,9 @@
 .notebooks {
     background: var(--btn-background-color-var2);
 }
-.notebooks-carousel {
+@media (max-width: 989px) {
+
+ .notebooks-carousel {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,6 +13,7 @@
     z-index: 1;
     width: 100%;
     margin: auto;
+    }
 }
 .notebooks-carousel__header-wrapper {
     align-self: center;
@@ -38,16 +41,21 @@
     overflow: hidden;
     transition: transform 0.5s ease-in-out;
 }
-
 .notebooks-carousel__product {
     display: none;
-    box-sizing: border-box;
-    text-align: center;
-    width: calc(100% / 3 - 15px);
-    object-fit: cover;
-    margin-right: 15px;
-    padding: 15px;
-    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+@media (min-width: 990px) {
+    .notebooks-carousel__product {
+        display: none;
+        box-sizing: border-box;
+        text-align: center;
+        width: calc(100% / 3 - 15px);
+        object-fit: cover;
+        margin-right: 15px;
+        padding: 15px;
+        transition: transform 0.5s ease-in-out;
+    }
 }
 .notebooks-carousel__product.active {
     display: inline-block;
