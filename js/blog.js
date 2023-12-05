@@ -18,10 +18,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     confirmButton.addEventListener('click', function () {
         ageConfirmationModal.style.display = 'none';
+        console.log('User confirmed age.');
     });
 
     rejectButton.addEventListener('click', function () {
         ageConfirmationModal.style.display = 'none';
+        console.log('User rejected age.');
         window.scrollTo(0, 0);
     });
 });
