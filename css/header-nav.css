@@ -99,7 +99,7 @@ body.active {
     box-shadow: #2e1e1e;
     margin-bottom: 15px;
 }
-.modal__content {
+.modal__window {
     display: flex !important;
     flex-wrap: wrap;
     margin-bottom: 15px;
