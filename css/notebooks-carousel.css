@@ -2,8 +2,6 @@
 .notebooks {
     background: var(--btn-background-color-var2);
 }
-@media (max-width: 989px) {
-
  .notebooks-carousel {
     display: flex;
     flex-direction: column;
@@ -14,7 +12,6 @@
     width: 100%;
     margin: auto;
     }
-}
 .notebooks-carousel__header-wrapper {
     align-self: center;
 }
@@ -45,6 +42,30 @@
     display: none;
     width: 100%;
 }
+@media (max-width: 768px) {
+    .notebooks-carousel__product {
+        display: none;
+        box-sizing: border-box;
+        text-align: center;
+        width: 100%;
+        object-fit: cover;
+        margin-right: 15px;
+        padding: 15px;
+        border: thick solid red;
+    }
+}
+@media (min-width: 769px) and (max-width: 989px) {
+    .notebooks-carousel__product {
+        display: none;
+        box-sizing: border-box;
+        text-align: center;
+        width: calc(100% / 2 - 15px);
+        object-fit: cover;
+        margin-right: 15px;
+        padding: 15px;
+        border: thick solid green;
+    }
+}
 @media (min-width: 990px) {
     .notebooks-carousel__product {
         display: none;
@@ -54,7 +75,6 @@
         object-fit: cover;
         margin-right: 15px;
         padding: 15px;
-        transition: transform 0.5s ease-in-out;
     }
 }
 .notebooks-carousel__product.active {

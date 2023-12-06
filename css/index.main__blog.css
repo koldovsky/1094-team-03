@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
 
 .blog {
-    background-color: black;
+    background-image: url(../img/blog/fon_image_try.png);
     padding-top: 60px;
     padding-bottom: 80px;
     padding-left: inherit;
@@ -28,12 +28,32 @@
     object-fit: cover;
 }
 
-.blog__title__description,
-.blog__image__description,
-.blog__image__signature {
+.blog__title__description {
     color: white;
     position: inherit;
     padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.blog__image__description {
+    color: gray;
+    position: inherit;
+    font-family: 'Merriweather' serif;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.button {
+    color: white;
+    font-family: 'Merriweather' serif;
+    font-size: 14px;
+}
+
+.blog__image__signature {
+    color: white;
+    position: inherit;
+    font-family: 'Merriweather' serif;
+    font-size: 12px;
     padding-top: 10px;
 }
 

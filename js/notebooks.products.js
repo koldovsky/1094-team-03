@@ -9,13 +9,15 @@ const totalProducts = products.length;
 let totalItemsInViewPort = 0;
 if(window.innerWidth < 767) {
     totalItemsInViewPort = 1;
+    console.log(`total amount of products ${totalProducts}`);
 
-} else if(window.innerWidth < 991) {
+} else if(window.innerWidth > 768 && window.innerWidth < 991) {
     totalItemsInViewPort = 2;
+    console.log(`total amount of products ${totalProducts}`);
 } else {
     totalItemsInViewPort = 3;
+    console.log(`total amount of products ${totalProducts}`);
 }
-// console.log(`items displayed ${totalItemsInViewPort}`);
 
 document.getElementById('next-button').addEventListener('click', showNext);
 document.getElementById('prev-button').addEventListener('click', showPrev);

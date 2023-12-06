@@ -2,10 +2,9 @@
 .customorders{
 	background: 
 	url(../img/branding/man.webp);
-	min-height: 600px;
+	min-height: 65g0px;
 	background-size: cover ;
-    background-position: center ;
- 
+    background-position: 20% 50%;
 }
 
 .branding__container {
@@ -19,6 +18,10 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	padding: 70px 0;
+}
+
+.grid-0 {
+	padding-left: 20px;
 }
 
 .branding__title {
