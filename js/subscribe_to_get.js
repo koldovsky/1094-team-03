@@ -18,7 +18,7 @@ function validateEmail(email) {
 }
 
 function subscribe(subscribePush){
-    if (validateEmail(subscribePush){
+    if (validateEmail(subscribePush)){
       subscribePush.preventDefault();
       var emailInput = document.getElementById('emailInput');
       var emailValue = emailInput.value;
