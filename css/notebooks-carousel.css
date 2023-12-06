@@ -51,7 +51,6 @@
         object-fit: cover;
         margin-right: 15px;
         padding: 15px;
-        flex-grow: 1;
     }
 }
 @media (min-width: 769px) and (max-width: 989px) {
