@@ -1,11 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+.text__sale {
+    font-size: 60px;
+    letter-spacing: 5px;
+    background-color: #e04141;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#countdown {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 75px;
+  }
 
 .products {
     padding-top: 80px;
     padding-bottom: 90px;
     background-color: rgb(243, 239, 239);
-    position: relative;
 }
 
 
@@ -21,10 +33,10 @@
 .products__title {
     color: var(--color-for-main-text-on-light-bg);
     text-align: center;
-    font-size: 38px;
+    font-size: 44px;
     display: block;
     width: auto;
-    height: auto;
+    height: 60px;
     font-weight: 400;
     position: relative;
     margin-bottom: 0px;
@@ -66,6 +78,7 @@
     padding-right: 15px;
 }
 
+
 .inf_product {
     display: flex;
     justify-content: center;
@@ -99,6 +112,15 @@
     font-size: 17px;
     text-decoration: none;
     margin: 8px 0px 0px 0px;
+    text-align: center;
+    color: rgb(33, 32, 32);
+    display: flex;
+}
+
+.name_product_briefcase {
+    font-size: 17px;
+    text-decoration: none;
+    margin: 50px 0px 0px 0px;
     text-align: center;
     color: rgb(33, 32, 32);
     display: flex;
@@ -138,8 +160,4 @@
 
 .buy_butt:hover{
     background-color: var(--btn-text-color-var2);
-}
-
-.product_button_Briefcase{
-    padding-top: 40px;
 }
