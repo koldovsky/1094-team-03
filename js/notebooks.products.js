@@ -18,15 +18,12 @@ window.addEventListener('resize', function() {
 
 function calculatedItemsInViewPort() {
     if(window.innerWidth < 767) {
-        totalItemsInViewPort = 1;
         console.log(`total amount of products ${totalProducts}`);
         return 1;
     } else if(window.innerWidth > 768 && window.innerWidth < 991) {
-        totalItemsInViewPort = 2;
         console.log(`total amount of products ${totalProducts}`);
         return 2
     } else {
-        totalItemsInViewPort = 3;
         console.log(`total amount of products ${totalProducts}`);
         return 3;
     }
