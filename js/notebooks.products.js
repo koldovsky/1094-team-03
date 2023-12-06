@@ -20,7 +20,7 @@ function calculatedItemsInViewPort() {
     if(window.innerWidth < 550) {
         console.log(`total amount of products ${totalProducts}`);
         return 1;
-    } else if(window.innerWidth > 551 && window.innerWidth < 770) {
+    } else if(window.innerWidth > 550 && window.innerWidth < 770) {
         console.log(`total amount of products ${totalProducts}`);
         return 2
     } else {
