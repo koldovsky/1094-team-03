@@ -156,11 +156,11 @@
 
 @media (min-width:1200px) {
     .new-arrivals .carousel__btn-prev {
-        left: -40px;
+        left: -26px;
     }
 
     .new-arrivals .carousel__btn-next {
-        right: -40px;
+        right: -24px;
     }
 
     .new-arrivals .carousel__button {
