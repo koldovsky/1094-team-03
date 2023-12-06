@@ -51,8 +51,12 @@
         object-fit: cover;
         margin-right: 15px;
         padding: 15px;
-        border: thick solid red;
+        border: thick solid blue;
+        flex-grow: 1;
     }
+    .notebooks-carousel__product:not(:first-child) {
+        display: none;
+      }
 }
 @media (min-width: 769px) and (max-width: 989px) {
     .notebooks-carousel__product {
