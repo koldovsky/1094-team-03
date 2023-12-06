@@ -18,6 +18,8 @@
 	margin: 0 auto;
 }
 
+
+
 .branding__grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -38,6 +40,7 @@ h2 {
 	padding-left: 20px;
 }
 
+
 .branding__text {
 	font-family: Merriweather, serif;
     font-size: 15px;
@@ -47,36 +50,35 @@ h2 {
 	line-height: 25px;
 }
 
-.branding__twoone {
-    display: flex;
-    margin-top: 25px;
-    background-color: white;
-}
-.left {
-    width: 100%;
-}
-.right-form{
-    width: 100%;
-    text-align: center;
-    margin-left: 45px;
+.branding__process {
+	background: 
+	url(img/branding/background.webp);
+  	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 800px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-p {
-    font:"Merriweather";
-}
-input {
-    display: block;
-    top: auto;
-    opacity: 1;
-    margin-top: 15px;
-    border: 0;
-    font-family: inherit;
-    text-overflow: ellipsis;
-    background-color: hsla(0,0%,40.4%,.2);
-    max-width: 350px;
+.branding__process__content {
+	max-width: 1200px;
+	box-sizing: border-box; 
 }
 
-button{
-opacity: 1;
-max-width: 350px;
+.branding__process__content img {
+	width: 100%;
+	height: auto;
+	max-height: 500px;
+	object-fit: cover;
+	margin: 0 auto; 
 }
+
+.branding__process__content h2 {
+	color: white;
+	text-align: center;
+}
+
+
+
