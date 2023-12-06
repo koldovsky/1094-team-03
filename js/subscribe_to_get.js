@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
     validateEmail(emailInput.value);
   });
 
-  document.querySelector(".subscribe__form__button").addEventListener("submit", function (event) {
-      event.preventDefault();
-      subscribe(event);
-    });
+  document.querySelector(".subscribe__form").addEventListener("submit", function (event) {
+    event.preventDefault();
+    subscribe(event);
+  });
 });
 
 var emailList = [];
@@ -26,12 +26,14 @@ function subscribe(event) {
   if (validateEmail(emailValue)) {
     emailList.push(emailValue);
     emailInput.value = "";
-    alert(
+    console.log(
       "Thanks for subscribing to Handmade Shop, dear! Email List: " + emailValue,
     );
   } else {
-    alert(
+    console.log(
       "Wrong email address. Subscription failed. Email List: " + emailValue + " All emails:" + emailList,
     );
   }
 }
+
+emailList = [];
