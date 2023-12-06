@@ -3,6 +3,7 @@
     padding-top: 80px;
     padding-bottom: 90px;
     position: relative;
+    overflow: hidden;
 }
 
 .new-arrivals::before {
@@ -25,7 +26,7 @@
 
 .new-arrivals .carousel__container {
     margin-top: 45px;
-    padding: 0 10px;
+    padding: 0 24px;
 }
 
 .new-arrivals__carousel {
@@ -136,7 +137,7 @@
     .new-arrivals .carousel__container ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        gap: 24px;
     }
 }
 
@@ -154,13 +155,13 @@
     }
 }
 
-@media (min-width:1200px) {
+@media (min-width:1260px) {
     .new-arrivals .carousel__btn-prev {
-        left: -40px;
+        left: -14px;
     }
 
     .new-arrivals .carousel__btn-next {
-        right: -40px;
+        right: -14px;
     }
 
     .new-arrivals .carousel__button {

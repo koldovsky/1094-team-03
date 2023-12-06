@@ -5,4 +5,5 @@ document.addEventListener('partialsLoaded', () => {
     import('./index.new-arrivals.js');
     import('./notebooks-page.js');
     import('./subscribe_to_get.js');
+    import('./blog.js');
 });
