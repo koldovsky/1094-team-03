@@ -4,9 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     validateEmail(emailInput.value);
   });
 
-  document
-    .querySelector(".subscribe__form")
-    .addEventListener("submit", function (event) {
+  document.querySelector(".subscribe__form__button").addEventListener("submit", function (event) {
       event.preventDefault();
       subscribe(event);
     });
