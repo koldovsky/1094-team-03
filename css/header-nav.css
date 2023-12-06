@@ -19,6 +19,7 @@
 }
 .header__nav {
     padding: 5px;
+    flex-wrap: nowrap;
 }
 .header__burger-menu {
     cursor: pointer;
@@ -47,7 +48,6 @@
         /* padding: 40px 0; */
         left: 0;
         overflow: hidden;
-        flex-wrap: nowrap;
     }
     .header__menu {
         display: flex;
