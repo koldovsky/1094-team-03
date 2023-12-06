@@ -28,12 +28,12 @@ function subscribe(event) {
   if (validateEmail(emailValue)) {
     emailList.push(emailValue);
     emailInput.value = "";
-    console.log(
-      "Thanks for subscribing to Handmade Shop, dear! Email List: " + emailList,
+    alert(
+      "Thanks for subscribing to Handmade Shop, dear! Email List: " + emailValue,
     );
   } else {
-    console.log(
-      "Wrong email address. Subscription failed. Email List: " + emailList,
+    alert(
+      "Wrong email address. Subscription failed. Email List: " + emailValue + " All emails:" + emailList,
     );
   }
 }
