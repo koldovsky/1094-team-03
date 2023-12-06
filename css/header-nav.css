@@ -94,7 +94,7 @@ body.active {
     width: 150%;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     border: 2px solid black;
     box-shadow: #2e1e1e;
