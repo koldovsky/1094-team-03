@@ -126,7 +126,7 @@ body.active {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        padding: 10px 40px 50px 40px;
+        /* padding: 10px 40px 50px 40px; */
     }
     .header__menu {
         width: 70%;
