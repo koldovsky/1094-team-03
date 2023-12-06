@@ -7,17 +7,17 @@ console.log(`all products list ${products}`);
 const totalProducts = products.length;
 // console.log(`total amount of products ${totalProducts}`);
 let totalItemsInViewPort = 0;
-if(window.innerWidth < 767) {
-    totalItemsInViewPort = 1;
-    console.log(`total amount of products ${totalProducts}`);
+// if(window.innerWidth < 767) {
+//     totalItemsInViewPort = 1;
+//     console.log(`total amount of products ${totalProducts}`);
 
-} else if(window.innerWidth > 768 && window.innerWidth < 991) {
-    totalItemsInViewPort = 2;
-    console.log(`total amount of products ${totalProducts}`);
-} else {
-    totalItemsInViewPort = 3;
-    console.log(`total amount of products ${totalProducts}`);
-}
+// } else if(window.innerWidth > 768 && window.innerWidth < 991) {
+//     totalItemsInViewPort = 2;
+//     console.log(`total amount of products ${totalProducts}`);
+// } else {
+//     totalItemsInViewPort = 3;
+//     console.log(`total amount of products ${totalProducts}`);
+// }
 
 document.getElementById('next-button').addEventListener('click', showNext);
 document.getElementById('prev-button').addEventListener('click', showPrev);
@@ -37,6 +37,17 @@ function showPrev() {
 function updateCarousel() {
     for (let i = 0; i < totalProducts; i++) {
         products[i].classList.remove('active');
+    }
+    if(window.innerWidth < 767) {
+        totalItemsInViewPort = 1;
+        console.log(`total amount of products ${totalProducts}`);
+    
+    } else if(window.innerWidth > 768 && window.innerWidth < 991) {
+        totalItemsInViewPort = 2;
+        console.log(`total amount of products ${totalProducts}`);
+    } else {
+        totalItemsInViewPort = 3;
+        console.log(`total amount of products ${totalProducts}`);
     }
 
     let startIdx = currentIndex;
