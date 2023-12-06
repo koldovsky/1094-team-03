@@ -3,11 +3,13 @@ document.addEventListener("DOMContentLoaded", function () {
   emailInput.addEventListener("input", function () {
     validateEmail(emailInput.value);
   });
-});
 
-document.querySelector(".subscribe__form").addEventListener("submit", function (event) {
-  event.preventDefault();
-  subscribe(emailInput.value);
+  document
+    .querySelector(".subscribe__form")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+      subscribe(event);
+    });
 });
 
 var emailList = [];
@@ -17,16 +19,21 @@ function validateEmail(email) {
   return emailRegex.test(email);
 }
 
-function subscribe(subscribePush){
-    if (validateEmail(subscribePush)){
-      subscribePush.preventDefault();
-      var emailInput = document.getElementById('emailInput');
-      var emailValue = emailInput.value;
-      emailList.push(emailValue);
-      emailInput.value = '';
-      console.log("Thanks for subscribe Handmade Shop dear" + emailList);
-    }
-    else{
-      console.log("Wrong email adress" + emailList);
-    }
+function subscribe(event) {
+  event.preventDefault();
+
+  var emailInput = document.getElementById("emailInput");
+  var emailValue = emailInput.value;
+
+  if (validateEmail(emailValue)) {
+    emailList.push(emailValue);
+    emailInput.value = "";
+    console.log(
+      "Thanks for subscribing to Handmade Shop, dear! Email List: " + emailList,
+    );
+  } else {
+    console.log(
+      "Wrong email address. Subscription failed. Email List: " + emailList,
+    );
+  }
 }
