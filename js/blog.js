@@ -1,29 +1,22 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const ageConfirmationModal = document.getElementById('ageConfirmation');
-    const confirmButton = document.getElementById('confirmButton');
-    const rejectButton = document.getElementById('rejectButton');
-    const blogSection = document.querySelector('.blog');
+    const countdownButton = document.getElementById('countdownButton');
+    const timer = document.getElementById('timer');
 
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                ageConfirmationModal.style.display = 'block';
-                observer.disconnect();
-            }
-        });
-    });
+    countdownButton.addEventListener('click', function () {
+        const targetDate = new Date(new Date().getFullYear() + 1, 0, 1);
+        function updateCountdown() {
+            const currentDate = new Date();
+            const timeDifference = targetDate - currentDate;
 
+            const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-    observer.observe(blogSection);
+            timer.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+        setInterval(updateCountdown, 1000);
 
-    confirmButton.addEventListener('click', function () {
-        ageConfirmationModal.style.display = 'none';
-        console.log('User confirmed age.');
-    });
-
-    rejectButton.addEventListener('click', function () {
-        ageConfirmationModal.style.display = 'none';
-        console.log('User rejected age.');
-        window.scrollTo(0, 0);
+        updateCountdown();
     });
 });
