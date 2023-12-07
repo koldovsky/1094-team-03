@@ -59,7 +59,7 @@
 .products__title {
     color: var(--color-for-main-text-on-light-bg);
     text-align: center;
-    font-size: 44px;
+    font-size: 38px;
     display: block;
     width: auto;
     height: 60px;
@@ -75,6 +75,9 @@
 }
 
 @media(min-width: 768px) {
+    .products__title {
+        font-size: 44px;
+    }
 
     .product__list {
         grid-template-columns: 1fr 1fr;
@@ -87,6 +90,9 @@
 }
 
 @media(min-width: 992px) {
+    .products__title {
+        font-size: 50px;
+    }
 
     .product__list {
         grid-template-columns: 1fr 1fr 1fr;
