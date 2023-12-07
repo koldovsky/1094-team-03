@@ -6,20 +6,28 @@ const products = document.querySelectorAll('.notebooks-carousel__product');
 console.log(`all products list ${products}`);
 const totalProducts = products.length;
 // console.log(`total amount of products ${totalProducts}`);
-let totalItemsInViewPort = 0;
-if(window.innerWidth < 767) {
-    totalItemsInViewPort = 1;
-
-} else if(window.innerWidth < 991) {
-    totalItemsInViewPort = 2;
-} else {
-    totalItemsInViewPort = 3;
-}
-// console.log(`items displayed ${totalItemsInViewPort}`);
+let totalItemsInViewPort = calculatedItemsInViewPort();
 
 document.getElementById('next-button').addEventListener('click', showNext);
 document.getElementById('prev-button').addEventListener('click', showPrev);
 
+window.addEventListener('resize', function() {
+    totalItemsInViewPort = calculatedItemsInViewPort();
+    updateCarousel();
+})
+
+function calculatedItemsInViewPort() {
+    if(window.innerWidth < 550) {
+        console.log(`total amount of products ${totalProducts}`);
+        return 1;
+    } else if(window.innerWidth > 550 && window.innerWidth < 770) {
+        console.log(`total amount of products ${totalProducts}`);
+        return 2
+    } else {
+        console.log(`total amount of products ${totalProducts}`);
+        return 3;
+    }
+}
 function showNext() {
     products[currentIndex].classList.remove('active');
     currentIndex = (currentIndex + 1) % totalProducts;
