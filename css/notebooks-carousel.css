@@ -40,7 +40,7 @@
 }
 .notebooks-carousel__product {
     display: none;
-    width: 100%;
+    height: auto;
 }
 @media (max-width: 768px) {
     .notebooks-carousel__product {
@@ -51,7 +51,6 @@
         object-fit: cover;
         margin-right: 15px;
         padding: 15px;
-        border: thick solid red;
     }
 }
 @media (min-width: 769px) and (max-width: 989px) {
@@ -63,7 +62,6 @@
         object-fit: cover;
         margin-right: 15px;
         padding: 15px;
-        border: thick solid green;
     }
 }
 @media (min-width: 990px) {
@@ -96,6 +94,7 @@
     padding: 10px;
     border: none;
     cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .next-button {
