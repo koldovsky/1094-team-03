@@ -99,6 +99,7 @@ body.active {
     /* border: 2px solid black; */
     /* box-shadow: #2e1e1e; */
     margin-bottom: 15px;
+    z-index: 2;
 }
 .modal__window {
     display: flex !important;
