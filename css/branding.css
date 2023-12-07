@@ -7,7 +7,7 @@
 
 .branding__intro{
 	background: 
-	url(img/branding/man.webp);
+	url(../img/branding/man.webp);
 	min-height: 600px;
 	background-size: cover ;
     background-position: 20% 50%;
@@ -53,7 +53,7 @@ h2 {
 
 .branding__process {
 	background: 
-	url(img/branding/background.webp);
+	url(../img/branding/background.webp);
   	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -88,7 +88,7 @@ h2 {
 .container {
     display: flex;
     flex-wrap: wrap;
-    margin: 0; /* Добавлено для удаления отступов между боком экрана и контейнером */
+    margin: 0; 
 }
 
 .image-container,
