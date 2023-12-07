@@ -13,13 +13,13 @@
     font-size: 44px;
 }
 
-timer {
+#timer {
     color: white;
     font-size: 24px;
     margin-top: 10px;
 }
 
-countdownButton {
+#countdownButton {
     background-color: transparent;
     color: white;
     font-size: 18px;
@@ -27,6 +27,13 @@ countdownButton {
     padding: 8px 16px;
     cursor: pointer;
     margin-top: 20px;
+}
+#countdownButton:hover {
+    background-color: gray;
+}
+
+#timerjs {
+    color: white;
 }
 
 .blog__item {
